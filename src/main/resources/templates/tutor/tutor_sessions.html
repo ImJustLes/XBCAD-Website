@@ -1,0 +1,73 @@
+<html><head>
+<title>Tutor Sessions - WeRTutors</title>
+<meta name="description" content="Manage your tutoring sessions, view upcoming and past sessions, and communicate with students through the tutor sessions portal.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="../../../static/style_tutor.css">
+
+
+
+</head>
+<body>
+<body>
+    <header>
+		<a href="https://wertutors.co.za" class="logo" style="text-align: center">WeRTutors</a>
+    </header>
+<nav>
+	<ul>
+    <li><a href="https://wertutors.com/tutor-dashboard" >Dashboard</a></li>
+    <li><a href="https://wertutors.com/tutor-sessions">Sessions</a></li>
+    <li><a href="https://wertutors.com/tutor-resources">Resources</a></li>
+    <li><a href="https://wertutors.com/tutor-profile">Profile</a></li>
+	<ul>
+</nav>
+
+<main>
+  <h1>Tutor Sessions</h1>
+
+  <div class="session-list">
+    <div class="session-item">
+      <h2>Math Tutoring Session</h2>
+      <p class="date">Date: June 10, 2023</p>
+      <p class="time">Time: 4:00 PM - 5:00 PM</p>
+      <p class="student">Student: John Doe</p>
+      <span class="status upcoming">Upcoming</span>
+      <div class="actions">
+        <a href="/session-details?id=1">View Details</a>
+        <a href="/reschedule-session?id=1">Reschedule</a>
+      </div>
+    </div>
+    <div class="session-item">
+      <h2>English Writing Session</h2>
+      <p class="date">Date: June 8, 2023</p>
+      <p class="time">Time: 2:30 PM - 3:30 PM</p>
+      <p class="student">Student: Sarah Johnson</p>
+      <span class="status completed">Completed</span>
+      <div class="actions">
+        <a href="/session-details?id=2">View Details</a>
+        <a href="/submit-report?id=2">Submit Report</a>
+      </div>
+    </div>
+    <div class="session-item">
+      <h2>Science Experiment Session</h2>
+      <p class="date">Date: June 12, 2023</p>
+      <p class="time">Time: 10:00 AM - 11:30 AM</p>
+      <p class="student">Student: Michael Brown</p>
+      <span class="status upcoming">Upcoming</span>
+      <div class="actions">
+        <a href="/session-details?id=3">View Details</a>
+        <a href="/reschedule-session?id=3">Reschedule</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="session-actions">
+    <a href="/schedule-session">Schedule New Session</a>
+  </div>
+</main>
+
+<footer>
+  &copy; 2024 WeRTutors. All rights reserved.
+</footer>
+</body>
+</html>

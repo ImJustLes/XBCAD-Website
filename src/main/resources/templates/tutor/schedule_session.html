@@ -1,0 +1,82 @@
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../../../static/style_tutor.css">
+	<title>Schedule Session - WeRTutors</title>
+	<title style="color: white">WeRTutors - Tutor Resources</title>
+
+</head>
+<body>
+<header>
+  <a href="/" class="logo">WeRTutors</a>
+</header>
+	<nav>
+        <ul>
+            <li><a href="https://wertutors.com/tutor-dashboard">Dashboard</a></li>
+            <li><a href="https://wertutors.com/tutor-sessions">Sessions</a></li>
+            <li><a href="https://wertutors.com/tutor-resources">Resources</a></li>
+            <li><a href="https://wertutors.com/tutor-profile">Profile</a></li>
+        </ul>
+    </nav>
+
+
+<main>
+  <h1>Schedule Session</h1>
+
+  <form action="/schedule-session" method="post">
+    <div>
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject" required>
+        <option value="">Select a subject</option>
+        <option value="mathematics">Mathematics</option>
+        <option value="english">English</option>
+        <option value="science">Science</option>
+        <option value="history">History</option>
+        <option value="art">Art</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+    </div>
+
+    <div>
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+    </div>
+
+    <div>
+      <label for="duration">Duration (in minutes):</label>
+      <input type="number" id="duration" name="duration" min="30" step="30" required>
+    </div>
+
+    <div>
+      <label for="student">Student:</label>
+      <select id="student" name="student" required>
+        <option value="">Select a student</option>
+        <option value="john-doe">John Doe</option>
+        <option value="sarah-johnson">Sarah Johnson</option>
+        <option value="michael-brown">Michael Brown</option>
+        <option value="emily-davis">Emily Davis</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="description">Session Description:</label>
+      <textarea id="description" name="description" rows="4"></textarea>
+    </div>
+
+    <div>
+      <button type="submit">Schedule Session</button>
+    </div>
+  </form>
+</main>
+
+<footer>
+  &copy; 2023 WeRTutors. All rights reserved.
+</footer>
+</body>
+</html>
