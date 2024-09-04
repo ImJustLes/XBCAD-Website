@@ -1,0 +1,60 @@
+<html><head>
+<title>Submit Resource - WeRTutors</title>
+<meta name="description" content="Share your valuable educational resources, teaching materials, and insights with the WeRTutors community to support and empower fellow tutors.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="../../../static/style_tutor.css">
+
+
+</head>
+<body>
+    <header>
+        <a href="https://wertutors.com/" class="logo">WeRTutors</a>
+    </header>
+	<nav>
+        <ul>
+            <li><a href="https://wertutors.com/tutor-dashboard">Dashboard</a></li>
+            <li><a href="https://wertutors.com/tutor-sessions">Sessions</a></li>
+            <li><a href="https://wertutors.com/tutor-resources">Resources</a></li>
+            <li><a href="https://wertutors.com/tutor-profile">Profile</a></li>
+        </ul>
+    </nav>
+
+<main>
+  <h1>Submit Resource</h1>
+
+  <form>
+    <div class="form-group">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+    </div>
+    <div class="form-group">
+      <label for="category">Category:</label>
+      <select id="category" name="category" required>
+        <option value="">Select a category</option>
+        <option value="Math">Math</option>
+        <option value="English">English</option>
+        <option value="Science">Science</option>
+        <option value="History">History</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+    </div>
+    <div class="form-group">
+      <label for="file">File:</label>
+      <input type="file" id="file" name="file" accept=".pdf,.doc,.docx" required>
+    </div>
+    <div class="form-group">
+      <button type="submit">Submit Resource</button>
+    </div>
+  </form>
+</main>
+
+<footer>
+  &copy; 2023 WeRTutors. All rights reserved.
+</footer>
+</body>
+</html>
