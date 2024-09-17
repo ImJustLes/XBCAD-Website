@@ -1,7 +1,11 @@
 package co.za.WeRTutors_Website.model;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 
+@Document
 public class TutorClientAssignment {
     /****** Tutor Attributes Getters and Setters *****/
     public String getAssignmentID() {
@@ -34,7 +38,7 @@ public class TutorClientAssignment {
     private String clientID;
 
 
-    //Pair Tutor and Client (Student)
+    //Pair Tutor and Client_Parent (Student)
     public List<TutorClientAssignment> Pair(String clientID, String childID, String tutorID)
     {
         List<TutorClientAssignment> assignment = null; //List of assignment for client, child and tutor

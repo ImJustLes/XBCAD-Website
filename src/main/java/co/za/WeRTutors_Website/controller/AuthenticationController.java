@@ -8,31 +8,37 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-
-@SpringBootApplication
 @Controller //Accept requests and return responses
-@RequestMapping("/wertutors")
 public class AuthenticationController {
 
     //Home View
-
-
-    //Login View
-    @GetMapping("/home")
+    @GetMapping("/home_page")
     String login(Model model) {
         model.addAttribute("message", "Welcome");
-        return "authentication/home_page";
+        return "/authentication/home_page";
+    }
+
+    //About Us
+    @GetMapping("/about_us")
+    public String about() {
+        return "/authentication/about_us";
+    }
+
+    //Login View
+    @GetMapping("/login")
+    public String login() {
+        return "/authentication/login_and_register";
     }
 
 
 
-    //Register Tutor
-
-
-    //Register Client
+    //Register Client_Parent
 
 
     //Create Admin
+
+
+
 
 
 }
