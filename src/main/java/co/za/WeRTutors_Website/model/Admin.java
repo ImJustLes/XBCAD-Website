@@ -1,8 +1,12 @@
 package co.za.WeRTutors_Website.model;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.stereotype.Service;
+
+@Document
 public class Admin extends User
 {
-    /****** Client Attributes Getters and Setters *****/
+    /****** Client_Parent Attributes Getters and Setters *****/
     public String getDepartment() {
         return department;
     }
@@ -19,7 +23,7 @@ public class Admin extends User
         this.position = position;
     }
 
-    /****** Client Attributes *****/
+    /****** Client_Parent Attributes *****/
     private String department;
     private String position;
 

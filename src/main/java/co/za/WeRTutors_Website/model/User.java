@@ -1,9 +1,12 @@
 package co.za.WeRTutors_Website.model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.stereotype.Service;
 
+@Document
 public abstract class User {
-    /****** Client Attributes Getters and Setters *****/
+    /****** Client_Parent Attributes Getters and Setters *****/
     public String getUserID() {
         return userID;
     }
@@ -28,12 +31,12 @@ public abstract class User {
         this.userSurname = userSurname;
     }
 
-    public String getUserEmail() {
-        return userEmail;
+    public String getEmail() {
+        return email;
     }
 
-    public void setUserEmail(String userEmail) {
-        this.userEmail = userEmail;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getPassword() {
@@ -60,12 +63,12 @@ public abstract class User {
         this.role = role;
     }
 
-    /****** Client Attributes *****/
+    /****** Client_Parent Attributes *****/
     @Id
     protected String userID;
     protected String userName;
     protected String userSurname;
-    protected String userEmail;
+    protected String email;
     protected String password;
     protected String userPhoneNumber;
     protected String role;
@@ -77,21 +80,21 @@ public abstract class User {
     public User(){}
 
     //User Create Profile Constructor
-    public User(String userID, String userName, String userSurname, String userEmail, String password,
+    public User(String userID, String userName, String userSurname, String email, String password,
                 String userPhoneNumber, String role){
         this.userID=userID;
         this.userName=userName;
         this.userSurname=userSurname;
-        this.userEmail=userEmail;
+        this.email=email;
         this.password=password;
         this.userPhoneNumber=userPhoneNumber;
         this.role=role;
     }
 
     //User Loin Constructor
-    public User (String userEmail, String password)
+    public User (String email, String password)
     {
-        this.userEmail=userEmail;
+        this.email=email;
         this.password=password;
     }
 

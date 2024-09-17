@@ -1,12 +1,16 @@
 package co.za.WeRTutors_Website.model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Document
 public class Child {
 
-    /****** Client Attributes Getters and Setters *****/
+    /****** Client_Parent Attributes Getters and Setters *****/
+
     public String getId() {
         return id;
     }
@@ -31,12 +35,12 @@ public class Child {
         this.childSurname = childSurname;
     }
 
-    public List<String>[] getSubjectsToBeTutored() {
-        return subjectsToBeTutored;
+    public List<String> getSubjects() {
+        return subjects;
     }
 
-    public void setSubjectsToBeTutored(List<String>[] subjectsToBeTutored) {
-        this.subjectsToBeTutored = subjectsToBeTutored;
+    public void setSubjects(List<String> subjects) {
+        this.subjects = subjects;
     }
 
     public String getAvailability() {
@@ -68,7 +72,7 @@ public class Child {
     private String id;
     private String childName;
     private String childSurname;
-    private List<String>[] subjectsToBeTutored; // List subjects needing help
+    private List<String> subjects; // List subjects needing help
     private String availability;
     private String tutorQualities;
     private  double numberOfSessions;
@@ -76,12 +80,12 @@ public class Child {
 
 
     /****** Constructors ******/
-    public Child(String id, String childName, String childSurname, List<String>[] subjectsToBeTutored,
+    public Child(String id, String childName, String childSurname, List<String> subjects,
                  String availability, String tutorQualities, double numberOfSessions) {
         this.id = id;
         this.childName = childName;
         this.childSurname = childSurname;
-        this.subjectsToBeTutored = subjectsToBeTutored;
+        this.subjects = subjects;
         this.availability = availability;
         this.tutorQualities = tutorQualities;
         this.numberOfSessions = numberOfSessions;

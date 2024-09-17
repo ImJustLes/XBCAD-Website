@@ -1,13 +1,12 @@
 package co.za.WeRTutors_Website.model;
-
-
-import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 
-public class Client extends User {
+@Document
+public class Client_Parent extends User {
 
-    /****** Client Attributes Getters and Setters *****/
+    /****** Client_Parent Attributes Getters and Setters *****/
     public List<Child> getChildren() {
         return children;
     }
@@ -32,27 +31,27 @@ public class Client extends User {
         this.payment = payment;
     }
 
-    /****** Client Attributes *****/
-    @Id
-    private  String location;
+    /****** Client_Parent Attributes *****/
+
+    private String location;
     private List<Child> children;
     private double payment;
 
 
     /****** Constructors ******/
     //Default Constructor
-    public Client(){}
+    public Client_Parent(){}
 
     //Constructor to create Profile
-    public Client(User user, List<Child> children) {
+    public Client_Parent(User user, List<Child> children) {
         super();
         this.children = children;
     }
 
     //Constructor to Login
-    public Client (String email, String password)
+    public Client_Parent(String email, String password)
     {
-        this.userEmail = email;
+        this.email = email;
         this.password = password;
     }
 
@@ -61,7 +60,10 @@ public class Client extends User {
     //Overrided Methods
     @Override
     public boolean Login(User user) {
-        return false;
+        boolean loggedin = false;
+        Client_Parent loginClientParent = new Client_Parent(user, children);
+
+        return loggedin;
     }
 
     @Override
@@ -73,12 +75,11 @@ public class Client extends User {
     public boolean CreateProfile(User user){
         boolean created = false;
 
+        Client_Parent newClientParent = new Client_Parent(user, children);
+
         return created;
-
     }
-    public void Student(){
 
-    }
 
     public void AddProgress(){
 

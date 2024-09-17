@@ -1,8 +1,11 @@
 package co.za.WeRTutors_Website.model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.stereotype.Service;
 
+@Document
 public class Tutor extends User
 {
     /****** Tutor Attributes Getters and Setters *****/
@@ -11,17 +14,26 @@ public class Tutor extends User
 
 
     /****** Tutor Attributes *****/
-    @Id
+
     private  String location;
     private String[] subjects;
     private String[] levels; //Primary School, High School, University
     public String[] availability;
     private double payment;
 
+    public byte[] getCvDocument() {
+        return cvDocument;
+    }
+
+    public void setCvDocument(byte[] cvDocument) {
+        this.cvDocument = cvDocument;
+    }
+
+    private byte[] cvDocument; // Store CV as byte array
 
 
     /****** Methods ******/
-    Tutor() {
+    public Tutor() {
         super();
     }
 
