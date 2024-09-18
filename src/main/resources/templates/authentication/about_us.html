@@ -1,0 +1,45 @@
+<!DOCTYPE>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="Learn how WeRTutors connects clients with expert tutors for personalized learning experiences.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title style="color: white">Home</title>
+    <link rel="stylesheet" th:href="@{/style_homepage.css}">
+
+</head>
+
+
+<body>
+<header>
+    <a href="https://wertutors.co.za" class="logo" style="text-align: center">WeRTutors- Everything Educational</a>
+</header>
+<nav>
+    <ul>
+        <li>Home</li>
+        <li><a th:href="@{/about_us.html}">About Us</a></li>
+        <li><a th:href="@{/tutor/become_a_tutor}">Become a Tutor</a></li>
+        <li>Student Sign Up</li>
+        <li><a th:href="@{/login_and_register.html}">Login</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="process-steps">
+        <h1>How WeRTutors Works</h1>
+
+
+        <p>
+            WeRTutors is a tutoring company that has been dedicated to educational assistance for over 6 years, offering<br>
+            a range of services to support students' academic success.  We provide one-on-one tutoring services for<br>
+            primary, secondary and tertiary school students, We offer this one-on-one tutoring service in the comfort of <br>
+            the student's home, virtually over video chat.  We conduct subject-based workshops to enhance academic performance, and offer "how to study" workshops to help students develop effective study habits and methods.
+        </p>
+
+    </section>
+</main>
+</body>
+</html>
