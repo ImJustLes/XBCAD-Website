@@ -1,4 +1,5 @@
-package co.za.WeRTutors_Website.model;
+package co.za.WeRTutors_Website.repository;
+import co.za.WeRTutors_Website.model.Client_Parent;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

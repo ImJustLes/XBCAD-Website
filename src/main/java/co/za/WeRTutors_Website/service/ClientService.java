@@ -1,5 +1,8 @@
-package co.za.WeRTutors_Website.model;
+package co.za.WeRTutors_Website.service;
 
+import co.za.WeRTutors_Website.model.Client_Parent;
+import co.za.WeRTutors_Website.model.Security;
+import co.za.WeRTutors_Website.repository.IClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,7 +23,7 @@ public class ClientService {
     public void LoginClient(Client_Parent client)
     {
         client.setEmail(client.getEmail());
-        clientRepository.findByEmail(client.email);
+        clientRepository.findByEmail(client.getEmail());
     }
 
 }

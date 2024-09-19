@@ -1,5 +1,8 @@
-package co.za.WeRTutors_Website.model;
+package co.za.WeRTutors_Website.service;
 
+import co.za.WeRTutors_Website.model.Security;
+import co.za.WeRTutors_Website.model.Tutor;
+import co.za.WeRTutors_Website.repository.ITutorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -21,7 +24,7 @@ public class TutorService {
     public void LoginTutor(Tutor loginTutor)
     {
         loginTutor.setEmail(loginTutor.getEmail());
-        tutorRepository.findByEmail(loginTutor.email);
+        tutorRepository.findByEmail(loginTutor.getEmail());
     }
 
 

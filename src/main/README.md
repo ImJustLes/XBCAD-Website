@@ -158,7 +158,8 @@ To test on POSTMAN, use this: <br>
 Retrieve Clients:<br>
 curl -X GET http://localhost:8080/client/all
 </l>
-
+Firebase service account<br>
+firebase-adminsdk-il2vg@wertutors-v1.iam.gserviceaccount.com<br>
 
 </ul>
 
