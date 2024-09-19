@@ -1,0 +1,91 @@
+<html><head>
+<title>Find Tutors - WeRTutors</title>
+<meta name="description" content="Search for and request tutors based on subject, availability, location, personality, and soft skills on WeRTutors.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="style_client.css">
+</head>
+
+<body>
+<header>
+  <a href="/" class="logo">WeRTutors</a>
+</header>
+  <nav>
+  <ul>
+	<li><a href="/client-dashboard">Dashboard</a></li>
+	<li><a href="/client-profile">Profile</a>    </li>
+	<li><a href="/find-tutors">Find Tutors</a>   </li>
+	<li><a href="/client-resources">Resources</a></li>
+  </ul>
+  </nav>
+
+
+
+<main>
+  <h1>Find Tutors</h1>
+
+  <section class="search-form">
+    <h2>Search Criteria</h2>
+    <form>
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject">
+        <option value="">Select a subject</option>
+        <option value="math">Math</option>
+        <option value="science">Science</option>
+        <option value="english">English</option>
+        <option value="history">History</option>
+      </select>
+
+      <label for="availability">Availability:</label>
+      <input type="text" id="availability" name="availability" placeholder="Enter preferred availability">
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" placeholder="Enter preferred location">
+
+      <label for="personality">Personality and Soft Skills:</label>
+      <input type="text" id="personality" name="personality" placeholder="Enter preferred personality and soft skills">
+
+      <button type="submit">Search Tutors</button>
+    </form>
+  </section>
+
+  <section class="tutor-results">
+    <h2>Search Results</h2>
+    <div class="tutor-item">
+      <img src="/profile-photos/tutor7534.jpg" alt="Tutor 1 Profile Photo">
+      <div>
+        <h3>Amanda Brown</h3>
+        <p>Subjects: Math, Science</p>
+        <p>Availability: Weekdays 4pm-8pm</p>
+        <p>Location: Online</p>
+        <p>Personality: Patient, Encouraging</p>
+        <button type="submit" class="request-btn">Request Tutor</button>
+      </div>
+    </div>
+    <div class="tutor-item">
+      <img src="/profile-photos/tutor2918.jpg" alt="Tutor 2 Profile Photo">
+      <div>
+        <h3>Robert Davis</h3>
+        <p>Subjects: English, History</p>
+        <p>Availability: Weekends 10am-6pm</p>
+        <p>Location: New York City</p>
+        <p>Personality: Creative, Engaging</p>
+        <button type="submit" class="request-btn">Request Tutor</button>
+      </div>
+    </div>
+    <div class="tutor-item">
+      <img src="/profile-photos/tutor6201.jpg" alt="Tutor 3 Profile Photo">
+      <div>
+        <h3>Emily Parker</h3>
+        <p>Subjects: Science, Math</p>
+        <p>Availability: Weekdays 6pm-9pm</p>
+        <p>Location: Chicago</p>
+        <p>Personality: Analytical, Supportive</p>
+        <button type="submit" class="request-btn">Request Tutor</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

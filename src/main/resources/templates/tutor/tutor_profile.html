@@ -1,0 +1,114 @@
+<html lang="en"><head><base href="https://wertutors.com/tutor-profile">
+<title>WeRTutors - Tutor Profile</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.2/alpine.js"></script>
+<style>
+  .gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+</style>
+</head>
+<body class="gradient-bg min-h-screen text-white">
+  
+  <header class="p-4 mb-10">
+    <div class="container mx-auto">
+      <h1 class="text-4xl font-bold mb-2">WeRTutors</h1>
+      <h2 class="text-2xl">Tutor Profile</h2>
+    </div>
+  </header>
+  
+  <!--Left Align-->
+      <div class="col-md-4">
+      <div class="stat">
+        <h3>Sessions Completed</h3>
+        <p>145</p>  
+      </div>
+
+      <div class="stat">
+        <h3>Students Tutored</h3>
+        <p>27</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">  
+      <div class="stat">
+        <h3>Avg. Session Rating</h3>
+        <p>4.8 / 5.0</p>
+      </div>
+
+      <div class="stat">
+        <h3>Member Since</h3>  
+        <p>August 2019</p>
+      </div>
+    </div>
+  
+  <main x-data="tutor()" class="container mx-auto px-4 pb-20">
+    <section class="mb-8">
+      <div class="flex items-center mb-4">
+        <img :src="tutor.avatar" class="w-32 h-32 object-cover rounded-full mr-6">
+        <div>
+          <h2 class="text-3xl font-bold mb-1" x-text="tutor.name"></h2>
+          <p class="text-lg text-indigo-100" x-text="tutor.title"></p>
+        </div>
+      </div>
+      <p class="text-gray-100 leading-relaxed" x-text="tutor.bio"></p>
+    </section>
+	
+	
+    
+    <section class="mb-8">
+      <h3 class="text-2xl font-semibold mb-4">Subjects</h3>
+      <div class="flex flex-wrap gap-3">
+        <template x-for="subject in tutor.subjects">
+          <span class="inline-block px-3 py-1 rounded-full text-sm bg-indigo-700" x-text="subject"></span>
+        </template>
+      </div>
+    </section>
+	
+    
+    <section>
+      <h3 class="text-2xl font-semibold mb-4">Availability</h3>
+      <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <template x-for="slot in tutor.availability">
+          <li class="p-4 rounded bg-indigo-900">
+            <p class="font-semibold" x-text="slot.day"></p> 
+            <p x-text="slot.time"></p>
+          </li>
+        </template>
+      </ul>
+    </section>
+  </main>
+  
+  <script>
+    function tutor() {
+      return {
+        tutor: {
+          name: 'John Smith',
+          avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
+          title: 'Math & Science Tutor',
+          bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper arcu sed volutpat aliquet. Nullam lacinia arcu eget massa euismod dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+          subjects: ['Algebra', 'Trigonometry', 'Calculus', 'Physics', 'Chemistry'],
+          availability: [
+            { day: 'Monday', time: '4:00 PM - 6:00 PM' },
+            { day: 'Tuesday', time: '5:00 PM - 7:00 PM' },
+            { day: 'Thursday', time: '4:30 PM - 6:30 PM' },
+            { day: 'Saturday', time: '10:00 AM - 12:00 PM' },
+          ]
+        }
+      }
+    }
+  </script>
+</body>
+</html>
+
+This tutor profile page shows:
+
+- The tutor's name, photo, title and bio 
+- A list of subjects they tutor
+- Their weekly availability schedule
+
+It uses Tailwind CSS for styling and Alpine.js to inject the dynamic tutor data into the HTML. The gradient background and card-like availability slots help create an appealing, modern design.
+
+The sample data is hardcoded in the Alpine.js component for demonstration purposes. In a real app, this data would be fetched from an API endpoint based on the logged-in tutor.
+
+Let me know if you would like me to modify or expand on this tutor profile page concept in any way! I can adjust the layout, styling, or functionality to better suit your needs.

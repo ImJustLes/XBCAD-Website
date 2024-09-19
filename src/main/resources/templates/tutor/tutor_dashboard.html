@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title style="color: white">WeRTutors - Tutor Dashboard</title>
+    <link rel="stylesheet" href="../../../static/style_tutor.css">
+</head>
+
+
+
+<body>
+    <header>
+		<a href="https://wertutors.co.za" class="logo" style="text-align: center">WeRTutors</a>
+    </header>
+<nav>
+	<ul>
+    <li><a href="https://wertutors.com/tutor-dashboard" >Dashboard</a></li>
+    <li><a href="https://wertutors.com/tutor-sessions">Sessions</a></li>
+    <li><a href="https://wertutors.com/tutor-resources">Resources</a></li>
+    <li><a href="https://wertutors.com/tutor-profile">Profile</a></li>
+	</ul>
+</nav>
+
+<main role="main">
+	
+<h1 style="color: black">Tutor Dashboard</h1>
+
+<!--Cards Sessions-->
+  <div class="dashboard-grid">
+    <div class="dashboard-card">
+      <i class="fas fa-book-reader"></i>
+      <h2>Completed Sessions</h2>
+      <p>42</p>
+    </div>
+    <div class="dashboard-card">
+      <i class="fas fa-file-alt"></i>
+      <h2>Pending Session Reports</h2>
+      <p>3</p>
+    </div>
+    <div class="dashboard-card">
+      <i class="fas fa-coins"></i>
+      <h2>Pending Payments</h2>
+      <p>$250</p>
+    </div>
+    <div class="dashboard-card">
+      <i class="fas fa-users"></i>
+      <h2>Total Students</h2>
+      <p>15</p>
+    </div>
+  </div>
+  
+  <!--Upcomming Sessions-->
+  <section class="upcoming-sessions">
+    <h2>Upcoming Sessions</h2>
+    <div class="session">
+      <div class="session-info">
+        <h3>Math Tutoring with John</h3>
+        <p><i class="far fa-calendar-alt"></i> June 15, 2023 | 4:00 PM - 5:00 PM</p>
+      </div>
+      <div class="session-actions">
+        <a href="#">View Details</a>
+        <a href="#">Reschedule</a>
+      </div>
+    </div>
+    <div class="session">
+      <div class="session-info">  
+        <h3>English Grammar with Emily</h3>
+        <p><i class="far fa-calendar-alt"></i> June 17, 2023 | 2:30 PM - 3:30 PM</p>
+      </div>
+      <div class="session-actions">
+        <a href="#">View Details</a>
+        <a href="#">Reschedule</a>
+      </div>
+    </div>
+    <div class="session">
+      <div class="session-info">
+        <h3>Science Lab with Michael</h3>
+        <p><i class="far fa-calendar-alt"></i> June 19, 2023 | 10:00 AM - 11:30 AM</p>
+      </div>
+      <div class="session-actions">
+        <a href="#">View Details</a>
+        <a href="#">Reschedule</a>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!--Recent Sessions-->
+<section class="recent-sessions">
+    <h1 style="color: black">Recent Sessions</h1>
+    <table class="session-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Student</th>
+          <th>Subject</th>
+          <th>Duration</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024-08-15</td>
+          <td>John Doe</td>
+          <td>Mathematics</td>
+          <td>1 hour</td>
+          <td><span class="status status-completed">Completed</span></td>
+        </tr>
+        <tr>
+          <td>2024-08-17</td>
+          <td>Jane Smith</td>
+          <td>English</td>
+          <td>45 minutes</td>
+          <td><span class="status status-upcoming">Upcoming</span></td>
+        </tr>
+        <tr>
+          <td>2024-08-20</td>
+          <td>Mike Johnson</td>
+          <td>Science</td>
+          <td>1 hour</td>
+          <td><span class="status status-cancelled">Cancelled</span></td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+
+</main>
+
+    <footer>
+        <p>© 2024 WeRTutors. All rights reserved.</p>
+    </footer>
+</body>
+</html>
