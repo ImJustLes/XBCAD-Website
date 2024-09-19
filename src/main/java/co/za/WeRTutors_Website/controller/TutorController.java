@@ -19,8 +19,8 @@ public class TutorController {
     @Autowired
     private TutorService tutorService;
 
-    @GetMapping("tutor/become_a_tutor")
-    public String BecomeTutor() {
+    @GetMapping("/become_a_tutor")
+    public String becomeTutor() {
         return "tutor/become_a_tutor";  // Refers to templates/tutor/become_a_tutor.html
     }
 

@@ -19,11 +19,10 @@
 </header>
 <nav>
   <ul>
-    <li>Home</li>
-    <li><a th:href="@{/about_us.html}">About Us</a></li>
+    <li><a th:href="@{/about_us}">About Us</a></li>
     <li><a th:href="@{/tutor/become_a_tutor}">Become a Tutor</a></li>
-    <li>Student Sign Up</li>
-    <li><a th:href="@{/login_and_register.html}">Login</a></li>
+    <li><a th:href="@{/client/client_sign_up}">Student Sign Up</a></li>
+    <li><a th:href="@{/login}">Login</a></li>
   </ul>
 </nav>
 
@@ -58,7 +57,7 @@
         <i class="fas fa-chalkboard-teacher"></i>
       </div>
       <div class="step-content">
-        <h2>Recieve info on our products and services</h2>
+        <h2>Receive info on our products and services</h2>
         <p>Engage in interactive, personalized learning sessions with your tutor. Track your progress, receive feedback,
           and achieve your learning goals.</p>
       </div>
@@ -93,7 +92,7 @@
     <h2>Find Your Perfect Tutor Match</h2>
     <p>Our sophisticated matching algorithm takes into account your learning style, goals, and preferences to pair you
       with the ideal tutor.</p>
-    <a href="./client_view/sign_up" class="btn">Find a Tutor Now</a> <!--Button- Create event handler-->
+    <a th:href="@{client/client_sign_up}" class="btn">Find a Tutor Now</a> <!--Button-Create event handler-->
   </section>
 </main>
 

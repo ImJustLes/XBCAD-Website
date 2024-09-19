@@ -13,32 +13,21 @@ public class AuthenticationController {
 
     //Home View
     @GetMapping("/home_page")
-    String login(Model model) {
-        model.addAttribute("message", "Welcome");
-        return "/authentication/home_page";
+    String home() {
+        //model.addAttribute("message", "Welcome");
+        return "authentication/home_page";
     }
 
     //About Us
     @GetMapping("/about_us")
     public String about() {
-        return "/authentication/about_us";
+        return "authentication/about_us";
     }
 
     //Login View
     @GetMapping("/login")
     public String login() {
-        return "/authentication/login_and_register";
+        return "authentication/login_and_register";
     }
-
-
-
-    //Register Client_Parent
-
-
-    //Create Admin
-
-
-
-
 
 }

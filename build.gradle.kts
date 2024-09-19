@@ -20,6 +20,8 @@ repositories {
 }
 
 dependencies {
+	compileOnly("org.springframework.boot:spring-boot-devtools")
+	implementation("com.google.firebase:firebase-admin:9.1.1")
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
 	implementation("org.springframework.boot:spring-boot-starter-web")

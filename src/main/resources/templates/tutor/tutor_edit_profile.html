@@ -1,10 +1,12 @@
-<html lang="en">
+
+<!DOCTYPE>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 	<head>
 		<meta name="description" content="Manage your tutor profile, update your availability, and showcase your expertise to attract more students on the WeRTutors platform.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-		<link rel="stylesheet" href="/style_tutor.css">
-		<title>Tutor Profile - WeRTutors</title>
+		<link rel="stylesheet" th:href="@{/style_tutor.css}">
+		<title>Become a Tutor</title>
 	</head>
 <body>
     <header>
@@ -12,15 +14,15 @@
     </header>
 	<nav>
         <ul>
-            <li><a href="https://wertutors.com/tutor-dashboard">Dashboard</a></li>
-            <li><a href="https://wertutors.com/tutor-sessions">Sessions</a></li>
-            <li><a href="https://wertutors.com/tutor-resources">Resources</a></li>
-            <li><a href="https://wertutors.com/tutor-profile">Profile</a></li>
+            <li><a th:href="@{tutor_dashboard}">Dashboard</a></li>
+            <li><a th:href="@{tutor_sessions}">Sessions</a></li>
+            <li><a th:href="@{tutor_resources}">Resources</a></li>
+            <li><a th:href="@{tutor_profile}">Profile</a></li>
         </ul>
     </nav>
 
 <main>
-  <h1>Tutor Profile</h1>
+  <h1>Become a Tutor</h1>
 
   <div class="profile-section">
     <h2>Personal Information</h2>

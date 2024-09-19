@@ -18,10 +18,10 @@ public class ClientController {
     private ClientService clientService;
 
 
-    @GetMapping("/signup")
+    @GetMapping("/client_sign_up")
     public String signupForm(Model model) {
         model.addAttribute("client", new Client_Parent());
-        return "client_signup"; // Redirect to client signup page
+        return "client/client_sign_up"; // Redirect to client signup page
     }
 
     @PostMapping("/signup")

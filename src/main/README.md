@@ -142,10 +142,27 @@ Gradle 8.8</br>
 <p>
 Ensure that when you run this application, it does not have apps like OneDrive running in the background as it will not execute.<br>
 The localhost is run on this port: 9000. The url for the application is on the port is: 
-"localhost:9000/wertutors/home". <br>
+"localhost:9000/home". <br>
 This can be changed in the file "application.properties" within the resources folder.<br>
+MongoDB database called WeRTutorsDB  port is running on port 27017 by default, which is where data can be retrieved by default<br>
+Run the application by connecting to MongoDB using the command "./gradlew bootRun"<br>
+To test on POSTMAN, use this: <br>
 </p>
 
+<ul>
+<l>Create Client:<br>
+"curl -X POST http://localhost:8080/client/add \ <br>
+-H "Content-Type: application/json" \<br>
+-d '{"userName": "John", "userSurname": "Doe", "userEmail": "john.doe@gmail.com", "password": "12345", "userPhoneNumber": "5551234", "role": "Parent"}'"</l>
+<l>
+Retrieve Clients:<br>
+curl -X GET http://localhost:8080/client/all
+</l>
+
+
+</ul>
+
+<br>
 
 
 <h2>References</h2>

@@ -1,10 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!DOCTYPE>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="description" content="Manage your tutor profile, update your availability, and showcase your expertise to attract more students on the WeRTutors platform.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" th:href="@{/style_tutor.css}">
+    <title>Tutor Profile - WeRTutors</title>
 </head>
 <body>
+<header>
+    <a href="https://wertutors.com/" class="logo">WeRTutors</a>
+</header>
+<nav>
+    <ul>
+        <li><a th:href="@{/home_page}">Home</a></li>
+        <li><a th:href="@{/about_us}">About Us</a></li>
+        <li><a th:href="@{/client/client_sign_up}">Student Sign Up</a></li>
+        <li><a th:href="@{/login}">Login</a></li>
+    </ul>
+</nav>
 
+<main>
+    <h1>Create Tutor Profile</h1>
+
+    <div class="profile-section">
+        <h2>Personal Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="John Doe" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value="johndoe@example.com" required>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" value="+1 (123) 456-7890">
+    </div>
+
+    <div class="profile-section">
+        <h2>Expertise</h2>
+        <label for="subjects">Subjects:</label>
+        <input type="text" id="subjects" name="subjects" value="Mathematics, Physics, Chemistry">
+
+        <label for="education">Education:</label>
+        <textarea id="education" name="education" rows="4">Bachelor of Science in Mathematics, XYZ University
+Master of Education, ABC University</textarea>
+
+        <label for="experience">Teaching Experience:</label>
+        <textarea id="experience" name="experience" rows="4">5+ years of experience as a private tutor
+Taught Mathematics and Physics at ABC High School for 3 years</textarea>
+    </div>
+
+    <div class="profile-section">
+        <h2>Availability</h2>
+        <div class="availability-grid">
+            <div class="availability-slot">Mon</div>
+            <div class="availability-slot selected">Tue</div>
+            <div class="availability-slot">Wed</div>
+            <div class="availability-slot selected">Thu</div>
+            <div class="availability-slot">Fri</div>
+            <div class="availability-slot selected">Sat</div>
+            <div class="availability-slot">Sun</div>
+        </div>
+
+        <label for="timezone">Timezone:</label>
+        <select id="timezone" name="timezone">
+            <option value="EST">Eastern Standard Time (EST)</option>
+            <option value="CST">Central Standard Time (CST)</option>
+            <option value="MST">Mountain Standard Time (MST)</option>
+            <option value="PST" selected>Pacific Standard Time (PST)</option>
+        </select>
+    </div>
+
+    <button type="submit">Save Changes</button>
+</main>
+
+<footer>
+    &copy; 2023 WeRTutors. All rights reserved.
+</footer>
 </body>
 </html>

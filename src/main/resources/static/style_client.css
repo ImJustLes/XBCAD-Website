@@ -1,0 +1,497 @@
+/* General Styles */
+:root{
+	--wertutors-blue: #26ABE3;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+	color: #333333;
+	background-color: #F5F5F5;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Header*/
+header {
+    background-color: #26ABE3;
+	color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	height: 80px;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+	align-items: center;
+}
+header .logo {
+	font-size: 28px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+/*Navigation*/
+nav {
+    margin-left: 0rem;
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	font-size: 18px;
+	margin-left: 0px;
+	transition: color 0.3s;
+	height: 40px;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+nav ul li {
+	margin: 0 10px;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #BBDEFB;
+}
+
+
+/* Main Content */
+[role="main"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+main {
+  padding: 40px;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+/* Sections */
+.section {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1, h3 {
+    margin-bottom: 1rem;
+	color: #26ABE3;
+	margin-bottom: 30px;
+}
+h2{
+	color: #000000;
+	margin-bottom: 1rem;
+	margin-bottom: 30px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+/* Client Profile */
+.availability-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+}
+.availability-slot {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.availability-slot.selected {
+    background-color: #0066cc;
+    color: white;
+}
+.profile-section {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+.profile-section h2 {
+  color: #1565C0;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.profile-item h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.profile-item {
+  display: flex;
+  align-items: center;
+  
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #555555;
+}
+.profile-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+
+.review-form select, .review-form textarea {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 20px;
+}
+.review-form .rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.review-form .rating input[type="radio"] {
+  display: none;
+}
+.review-form .rating label {
+  color: #CCCCCC;
+  font-size: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.review-form h2 {
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.review-form button {
+	background-color: #1E88E5;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.review-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.review-form .rating label:hover,
+.review-form .rating input[type="radio"]:checked ~ label {
+	color: #FFCA28;
+}
+
+
+/*Tutor Request*/
+.tutor-request,.review-form {
+	background-color: #f8f8f8;
+	border-radius: 8px;
+	padding: 30px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	margin-bottom: 40px;
+}
+.tutor-request {
+    background-color: #;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+.tutor-request h2 {
+	color: #1565C0;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.tutor-request label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.tutor-request select, .tutor-request input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+.tutor-request button {
+	background-color: #1E88E5;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+
+/*Find Tutor*/
+.search-form {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+.search-form h2 {
+  color: var(--wertutors-blue);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.search-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.search-form select, .search-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.search-form button {
+  background-color: #1E88E5;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.tutor-results {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.tutor-results h2 {
+  color: var(--wertutors-blue);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.tutor-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.tutor-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.tutor-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.tutor-item p {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 5px;
+}
+.tutor-item .request-btn {
+  background-color: var(--wertutors-blue);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+
+
+
+/* Form Styles */
+form {
+    display: grid;
+    gap: 1rem;
+	background-color: #FFFFFF;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	max-width: 400px;
+	margin: 0 auto;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+main {
+  animation: fadeIn 1s;
+  }
+
+
+
+
+/*Login Form*/
+
+.login-form {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.login-form h2 {
+  text-align: center;
+  color: #000000;
+}
+.login-form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.login-form button {
+	width: 80%;
+	padding: 10px;
+	background-color: #26ABE3;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	align-items: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+textarea, input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  resize: vertical;
+  display: block;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #26ABE3;
+    color: white;
+    border-radius: 4px;
+	border: none;
+	font-size: 18px;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #0052a3;
+}
+button[type="submit"] {
+  background-color: #26ABE3;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+button[type="submit"]:hover {
+  background-color: #0052a3;
+}
+
+
+
+
+/******Menu*******/
+.menu - item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background - color 0.3s;
+}
+.menu - item: hover {
+    background - color: var(--wertutors-blue);
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: #000000;
+	color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
