@@ -1,0 +1,121 @@
+<html><head>
+<meta name="description" content="View and manage your client profile, submit reviews, and request tutors on WeRTutors.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="style_client.css">
+<title>Client Profile - WeRTutors</title>
+</head>
+
+<body>
+<header>
+  <a href="/" class="logo">WeRTutors</a>
+</header>
+  <nav>
+  <ul>
+    <li><a href="/client-dashboard">Dashboard</a></li>
+    <li><a href="/client-profile">Profile</a> </li>
+    <li><a href="/find-tutors">Find Tutors</a></li>
+    <li><a href="/client-resources">Resources</a></li>
+	</ul>
+  </nav>
+
+
+
+<main>
+  <h1>Client Profile</h1>
+
+  <section class="profile-section">
+    <h2>Parent Information</h2>
+    <div class="profile-item">
+	<!--Client Image-->
+      <img src="/profile-photos/client3874.jpg" alt="Parent Profile Photo">
+      <div>
+        <h3>John Doe</h3>
+        <p>Email: john.doe@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="profile-section">
+    <h2>Children</h2>
+    <div class="profile-item">
+	<!--Client Student Image-->
+      <img src="/profile-photos/student7643.jpg" alt="Child 1 Profile Photo">
+      <div>
+        <h3>Emily Doe</h3>
+        <p>Age: 12</p>
+        <p>Grade: 7th</p>
+      </div>
+    </div>
+    <div class="profile-item">
+	<!--Client Student Image-->
+      <img src="/profile-photos/student2054.jpg" alt="Child 2 Profile Photo">
+      <div>
+        <h3>Michael Doe</h3>
+        <p>Age: 9</p>
+        <p>Grade: 4th</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="profile-section">
+    <h2>Assigned Tutors</h2>
+    <div class="profile-item">
+	<!--Tutor Image-->
+      <img src="/profile-photos/tutor5297.jpg" alt="Tutor 1 Profile Photo">
+      <div>
+        <h3>Sarah Johnson</h3>
+        <p>Subjects: Math, Science</p>
+        <p>Email: sarah.johnson@example.com</p>
+      </div>
+    </div>
+    <div class="profile-item">
+	<!--Tutor Image-->
+      <img src="/profile-photos/tutor1983.jpg" alt="Tutor 2 Profile Photo">
+      <div>
+        <h3>David Wilson</h3>
+        <p>Subjects: English, History</p>
+        <p>Email: david.wilson@example.com</p>
+      </div>
+    </div>
+  </section>
+
+	<!--Hide review Page/ Make into popup-->
+  <section class="review-form">
+    <h2>Submit a Review</h2>
+    <form>
+      <textarea placeholder="Write your review here..."></textarea>
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
+
+  <section class="tutor-request">
+    <h2>Request a Tutor</h2>
+    <form>
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject">
+        <option value="">Select a subject</option>
+        <option value="math">Math</option>
+        <option value="science">Science</option>
+        <option value="english">English</option>
+        <option value="history">History</option>
+      </select>
+
+      <label for="availability">Availability:</label>
+      <input type="text" id="availability" name="availability" placeholder="Enter preferred availability">
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" placeholder="Enter preferred location">
+
+      <label for="personality">Personality and Soft Skills:</label>
+      <input type="text" id="personality" name="personality" placeholder="Enter preferred personality and soft skills">
+
+      <button type="submit">Request Tutor</button>
+    </form>
+  </section>
+</main>
+
+</body>
+</html>
