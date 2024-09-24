@@ -2,9 +2,9 @@ package co.za.WeRTutors_Website.controller;
 
 import co.za.WeRTutors_Website.service.FirebaseService;
 import co.za.WeRTutors_Website.service.TutorService;
-import co.za.WeRTutors_Website.service.model.FirebaseService;
+import co.za.WeRTutors_Website.service.FirebaseService;
 import co.za.WeRTutors_Website.model.Tutor;
-import co.za.WeRTutors_Website.service.model.TutorService;
+import co.za.WeRTutors_Website.service.TutorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
