@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WeRTutorsV2.props" />
+</Project>

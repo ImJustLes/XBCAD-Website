@@ -1,0 +1,34 @@
+﻿@model WeRTutorsV2.Models.FeedbackModel
+
+<h2>Submit Your Feedback</h2>
+<link rel="stylesheet" href="~/css/feedBackstyles.css"/>
+
+<form method="post" action="/Feedback/Index">
+    <div>
+        <label>Full Name:</label>
+        <input type="text" name="FullName" required />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input type="email" name="Email" required />
+    </div>
+    <div>
+        <label>Comment/Review:</label>
+        <textarea name="Comment" required></textarea>
+    </div>
+    <div>
+        <label>Tutor's Name:</label>
+        <input type="text" name="TutorName" required />
+    </div>
+    <div>
+        <label>Subject:</label>
+        <input type="text" name="Subject" required />
+    </div>
+    <button type="submit">Submit Feedback</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <p style="color: green;">@ViewBag.Message</p>
+}
+
