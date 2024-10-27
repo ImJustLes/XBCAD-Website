@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KMSgTKsjo/6qpApYi4jzTS9eIqEhfWkZxiBXiScsvco=",
+  "Hash": "XgM++gOi+AxlwF1WSPydkM3u2xIZe7w1ViDDyMQIFvg=",
   "Source": "WeRTutorsV2",
   "BasePath": "_content/WeRTutorsV2",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\css\\feedBackstyles.css"
     },
     {
+      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\layoutStyle.css",
+      "SourceId": "WeRTutorsV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\",
+      "BasePath": "_content/WeRTutorsV2",
+      "RelativePath": "css/layoutStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layoutStyle.css"
+    },
+    {
       "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\site.css",
       "SourceId": "WeRTutorsV2",
       "SourceType": "Discovered",
@@ -112,6 +131,44 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorStyle.css",
+      "SourceId": "WeRTutorsV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\",
+      "BasePath": "_content/WeRTutorsV2",
+      "RelativePath": "css/tutorStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tutorStyle.css"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\ViewAllTutors.css",
+      "SourceId": "WeRTutorsV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\",
+      "BasePath": "_content/WeRTutorsV2",
+      "RelativePath": "css/ViewAllTutors.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ViewAllTutors.css"
+    },
+    {
       "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\favicon.ico",
       "SourceId": "WeRTutorsV2",
       "SourceType": "Discovered",
@@ -129,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\images\\WRT-Website-Logo (1).jpg",
+      "SourceId": "WeRTutorsV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\",
+      "BasePath": "_content/WeRTutorsV2",
+      "RelativePath": "images/WRT-Website-Logo (1).jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\WRT-Website-Logo (1).jpg"
     },
     {
       "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\js\\site.js",
@@ -1233,12 +1309,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\wertutors-v1-firebase-adminsdk-il2vg-5ba20ca7d4.json",
+      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\wertutors-v1-firebase-adminsdk-il2vg-aa59d961e4.json",
       "SourceId": "WeRTutorsV2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\",
       "BasePath": "_content/WeRTutorsV2",
-      "RelativePath": "wertutors-v1-firebase-adminsdk-il2vg-5ba20ca7d4.json",
+      "RelativePath": "wertutors-v1-firebase-adminsdk-il2vg-aa59d961e4.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1249,7 +1325,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\wertutors-v1-firebase-adminsdk-il2vg-5ba20ca7d4.json"
+      "OriginalItemSpec": "wwwroot\\wertutors-v1-firebase-adminsdk-il2vg-aa59d961e4.json"
     }
   ]
 }

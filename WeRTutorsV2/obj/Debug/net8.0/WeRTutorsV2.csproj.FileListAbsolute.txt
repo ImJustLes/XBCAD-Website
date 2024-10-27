@@ -239,3 +239,4 @@ C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\obj\Debug\net
 C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\obj\Debug\net8.0\WeRTutorsV2.pdb
 C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\obj\Debug\net8.0\WeRTutorsV2.genruntimeconfig.cache
 C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\obj\Debug\net8.0\ref\WeRTutorsV2.dll
+C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\obj\Debug\net8.0\WeRTutorsV2.sourcelink.json

@@ -25,7 +25,7 @@ namespace WeRTutorsV2
             try
             {
                 // Map the path to the Firebase credentials file
-                var firebaseCredentialPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "wertutors-v1-firebase-adminsdk-il2vg-5ba20ca7d4.json");
+                var firebaseCredentialPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "wertutors-v1-firebase-adminsdk-il2vg-aa59d961e4.json");
 
                 // Initialize Firebase App
                 FirebaseApp.Create(new AppOptions()
@@ -33,6 +33,8 @@ namespace WeRTutorsV2
                     Credential = GoogleCredential.FromFile(firebaseCredentialPath)
                 });
                 Console.WriteLine("Firebase initialized successfully.");
+                Console.WriteLine($"Firebase Credential Path: {firebaseCredentialPath}");
+
             }
             catch (Exception ex)
             {
@@ -74,9 +76,10 @@ namespace WeRTutorsV2
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Auth}/{action=Login}/{id?}");
 
             app.Run();
+
         }
     }
 }

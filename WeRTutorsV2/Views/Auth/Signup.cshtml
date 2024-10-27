@@ -1,7 +1,9 @@
 ﻿@model WeRTutorsV2.Models.SignupModel
 
-<h2>Signup</h2>
+
 <link rel="stylesheet" href="~/css/AuthStyle.css"/>
+<img src="~/images/WRT-Website-Logo (1).jpg" alt="WeRTutors Logo"/>
+<h2>Signup</h2>
 
 <form method="post">
     <div>
@@ -25,6 +27,7 @@
         <input type="password" name="ConfirmPassword" required />
     </div>
     <button type="submit">Signup</button>
+    <p1>You already have an account? @Html.ActionLink("Login", "Login", "Auth")</p1>
 </form>
 
 <p>@ViewBag.Message</p>

@@ -1,0 +1,209 @@
+﻿@model WeRTutorsV2.Models.TutorSignupModel
+
+<div class="container mt-4">
+    <link rel="stylesheet" href="~/css/tutorStyle.css" />
+    <!-- Include Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <h2>Tutor Registration</h2>
+    <form asp-action="Signup" method="post">
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Surname" class="control-label"></label>
+                        <input asp-for="Surname" class="form-control" />
+                        <span asp-validation-for="Surname" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="PhoneNumber" class="control-label"></label>
+                        <input asp-for="PhoneNumber" class="form-control" />
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- Professional Information Section -->
+        <fieldset>
+            <legend>Professional Information</legend>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Subjects" class="control-label"></label>
+                        <div class="checkbox-group">
+                            <label>
+                                <input type="checkbox" name="Subjects" value="Math" /> Math
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Subjects" value="Science" /> Science
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Subjects" value="English" /> English
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Subjects" value="History" /> History
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Subjects" value="Computer Science" /> Computer Science
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Subjects" value="Physics" /> Physics
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Subjects" value="Biology" /> Biology
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Subjects" value="Chemistry" /> Chemistry
+                            </label>
+                        </div>
+                        <span asp-validation-for="Subjects" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="TutoringExperience" class="control-label"></label>
+                        <div class="checkbox-group">
+                            <label>
+                                <input type="checkbox" name="TutoringExperience" value="Less than 1 year" /> Less than 1 year
+                            </label>
+                            <label>
+                                <input type="checkbox" name="TutoringExperience" value="1-2 years" /> 1-2 years 
+                            </label>
+                            <label>
+                                <input type="checkbox" name="TutoringExperience" value="3-5 years" /> 3-5 years
+                            </label>
+                            <label>
+                                <input type="checkbox" name="TutoringExperience" value="6-10 years" /> 6-10 years
+                            </label>
+                            <label>
+                                <input type="checkbox" name="TutoringExperience" value="More than 10 years" /> More than 10 years
+                            </label>
+                            
+                        </div>
+                        <span asp-validation-for="TutoringExperience" class="text-danger"></span>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="PreferredTeachingLevel" class="control-label"></label>
+                        <div class="checkbox-group">
+                            <label>
+                                <input type="checkbox" name="PreferredTeachingLevel" value="Primary School" /> Primary School
+                            </label>
+                            <label>
+                                <input type="checkbox" name="PreferredTeachingLevel" value="High School" /> High School
+                            </label>
+                            <label>
+                                <input type="checkbox" name="PreferredTeachingLevel" value="College/University" /> College/University
+                            </label>
+                            <label>
+                                <input type="checkbox" name="PreferredTeachingLevel" value="Adult Learners" /> Adult Learners
+                            </label>
+                            <label>
+                                <input type="checkbox" name="PreferredTeachingLevel" value="All Levels" /> All levels
+                            </label>
+
+                        </div>
+                        <span asp-validation-for="PreferredTeachingLevel" class="text-danger"></span>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Languages" class="control-label"></label>
+                        <div class="checkbox-group">
+                            <label>
+                                <input type="checkbox" name="Languages" value="English" /> English
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Languages" value="Spanish" /> Spanish
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Languages" value="French" /> French
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Languages" value="Afrikaans" /> Afrikaans
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Languages" value="IsiZulu" /> IsiZulu
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Languages" value="Setswana" /> Setswana
+                            </label>
+
+                        </div>
+                        <span asp-validation-for="Languages" class="text-danger"></span>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Location" class="control-label"></label>
+                        <input asp-for="Location" class="form-control" />
+                        <span asp-validation-for="Location" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" type="password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="ConfirmPassword" class="control-label"></label>
+                        <input asp-for="ConfirmPassword" type="password" class="form-control" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+        <div class="form-group">
+            <input type="submit" value="Register" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+
+
+<footer>
+    <p>© 2024 - WeRTutorsV2 - <a href="#">Privacy</a></p>
+</footer>

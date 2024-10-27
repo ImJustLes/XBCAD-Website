@@ -9,16 +9,32 @@
       "PackagePath": "staticwebassets\\css\\AuthStyle.css"
     },
     {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\ViewAllTutors.css",
+      "PackagePath": "staticwebassets\\css\\ViewAllTutors.css"
+    },
+    {
       "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\feedBackstyles.css",
       "PackagePath": "staticwebassets\\css\\feedBackstyles.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\layoutStyle.css",
+      "PackagePath": "staticwebassets\\css\\layoutStyle.css"
     },
     {
       "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorStyle.css",
+      "PackagePath": "staticwebassets\\css\\tutorStyle.css"
+    },
+    {
       "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\images\\WRT-Website-Logo (1).jpg",
+      "PackagePath": "staticwebassets\\images\\WRT-Website-Logo (1).jpg"
     },
     {
       "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\js\\site.js",
@@ -253,8 +269,8 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\wertutors-v1-firebase-adminsdk-il2vg-5ba20ca7d4.json",
-      "PackagePath": "staticwebassets\\wertutors-v1-firebase-adminsdk-il2vg-5ba20ca7d4.json"
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\wertutors-v1-firebase-adminsdk-il2vg-aa59d961e4.json",
+      "PackagePath": "staticwebassets\\wertutors-v1-firebase-adminsdk-il2vg-aa59d961e4.json"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WeRTutorsV2.Microsoft.AspNetCore.StaticWebAssets.props",
