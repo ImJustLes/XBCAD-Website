@@ -2,7 +2,7 @@
 
 <div class="container mt-4">
     <link rel="stylesheet" href="~/css/tutorStyle.css" />
-    <!-- Include Select2 CSS -->
+    
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
     <h2>Tutor Registration</h2>
@@ -87,58 +87,38 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="TutoringExperience" class="control-label"></label>
-                        <div class="checkbox-group">
-                            <label>
-                                <input type="checkbox" name="TutoringExperience" value="Less than 1 year" /> Less than 1 year
-                            </label>
-                            <label>
-                                <input type="checkbox" name="TutoringExperience" value="1-2 years" /> 1-2 years 
-                            </label>
-                            <label>
-                                <input type="checkbox" name="TutoringExperience" value="3-5 years" /> 3-5 years
-                            </label>
-                            <label>
-                                <input type="checkbox" name="TutoringExperience" value="6-10 years" /> 6-10 years
-                            </label>
-                            <label>
-                                <input type="checkbox" name="TutoringExperience" value="More than 10 years" /> More than 10 years
-                            </label>
-                            
-                        </div>
+                        <select asp-for="TutoringExperience" class="form-control">
+                            <option value="">Select Experience</option>
+                            <option value="Less than 1 year">Less than 1 year</option>
+                            <option value="1-2 years">1-2 years</option>
+                            <option value="3-5 years">3-5 years</option>
+                            <option value="6-10 years">6-10 years</option>
+                            <option value="More than 10 years">More than 10 years</option>
+                        </select>
                         <span asp-validation-for="TutoringExperience" class="text-danger"></span>
                     </div>
                 </div>
 
-                
+
             </div>
 
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="PreferredTeachingLevel" class="control-label"></label>
-                        <div class="checkbox-group">
-                            <label>
-                                <input type="checkbox" name="PreferredTeachingLevel" value="Primary School" /> Primary School
-                            </label>
-                            <label>
-                                <input type="checkbox" name="PreferredTeachingLevel" value="High School" /> High School
-                            </label>
-                            <label>
-                                <input type="checkbox" name="PreferredTeachingLevel" value="College/University" /> College/University
-                            </label>
-                            <label>
-                                <input type="checkbox" name="PreferredTeachingLevel" value="Adult Learners" /> Adult Learners
-                            </label>
-                            <label>
-                                <input type="checkbox" name="PreferredTeachingLevel" value="All Levels" /> All levels
-                            </label>
-
-                        </div>
+                        <select asp-for="PreferredTeachingLevel" class="form-control">
+                            <option value="">Select Teaching Level</option>
+                            <option value="Primary School">Primary School</option>
+                            <option value="High School">High School</option>
+                            <option value="College/University">College/University</option>
+                            <option value="Adult Learners">Adult Learners</option>
+                            <option value="All Levels">All Levels</option>
+                        </select>
                         <span asp-validation-for="PreferredTeachingLevel" class="text-danger"></span>
                     </div>
                 </div>
-                
-                
+
+
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="Languages" class="control-label"></label>
@@ -166,7 +146,7 @@
                         <span asp-validation-for="Languages" class="text-danger"></span>
                     </div>
                 </div>
-                
+
             </div>
 
             <div class="row">
@@ -200,8 +180,24 @@
             <input type="submit" value="Register" class="btn btn-primary" />
         </div>
     </form>
+
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-info mt-4">
+            @ViewBag.Message
+        </div>
+    }
 </div>
 
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2').select2();
+        });
+    </script>
+}
 
 
 <footer>

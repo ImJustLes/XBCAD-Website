@@ -1,0 +1,90 @@
+﻿@model List<WeRTutorsV2.Models.TutorSignupModel>
+<link rel="stylesheet" href="~/css/tutorRecommStyles.css" />
+<div class="container mt-4">
+    <h2>Tutor Recommendation</h2>
+    <form asp-action="TutorRecommendation" method="post">
+        <!-- Subjects -->
+        <fieldset>
+            <legend>Subjects</legend>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="subjects" value="Math" /> Math</label>
+                <label><input type="checkbox" name="subjects" value="Science" /> Science</label>
+                <label><input type="checkbox" name="subjects" value="English" /> English</label>
+                <label><input type="checkbox" name="subjects" value="History" /> History</label>
+                <label><input type="checkbox" name="subjects" value="Computer Science" /> Computer Science</label>
+                <label><input type="checkbox" name="subjects" value="Physics" /> Physics</label>
+                <label><input type="checkbox" name="subjects" value="Biology" /> Biology</label>
+                <label><input type="checkbox" name="subjects" value="Chemistry" /> Chemistry</label>
+            </div>
+        </fieldset>
+
+        <!-- Tutoring Experience -->
+        <fieldset>
+            <legend>Tutoring Experience</legend>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="experiences" value="Less than 1 year" /> Less than 1 year</label>
+                <label><input type="checkbox" name="experiences" value="1-2 years" /> 1-2 years</label>
+                <label><input type="checkbox" name="experiences" value="3-5 years" /> 3-5 years</label>
+                <label><input type="checkbox" name="experiences" value="6-10 years" /> 6-10 years</label>
+                <label><input type="checkbox" name="experiences" value="More than 10 years" /> More than 10 years</label>
+            </div>
+        </fieldset>
+
+        <!-- Preferred Teaching Level -->
+        <fieldset>
+            <legend>Preferred Teaching Level</legend>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="levels" value="Primary School" /> Primary School</label>
+                <label><input type="checkbox" name="levels" value="High School" /> High School</label>
+                <label><input type="checkbox" name="levels" value="College/University" /> College/University</label>
+                <label><input type="checkbox" name="levels" value="Adult Learners" /> Adult Learners</label>
+                <label><input type="checkbox" name="levels" value="All Levels" /> All levels</label>
+            </div>
+        </fieldset>
+
+        <!-- Languages -->
+        <fieldset>
+            <legend>Languages</legend>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="languages" value="English" /> English</label>
+                <label><input type="checkbox" name="languages" value="Spanish" /> Spanish</label>
+                <label><input type="checkbox" name="languages" value="French" /> French</label>
+                <label><input type="checkbox" name="languages" value="Afrikaans" /> Afrikaans</label>
+                <label><input type="checkbox" name="languages" value="IsiZulu" /> IsiZulu</label>
+                <label><input type="checkbox" name="languages" value="Setswana" /> Setswana</label>
+            </div>
+        </fieldset>
+
+        <!-- Search Button -->
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+
+    <!-- Display Recommended Tutors -->
+    @if (Model != null && Model.Any())
+    {
+        <h3>Recommended Tutors</h3>
+        <div class="recommended-tutors">
+            @foreach (var tutor in Model)
+            {
+                <div class="tutor-card">
+                    <h4>@tutor.Name @tutor.Surname</h4>
+                    <p><strong>Email:</strong> @tutor.Email</p>
+                    <p><strong>Phone:</strong> @tutor.PhoneNumber</p>
+                    <p><strong>Subjects:</strong> @string.Join(", ", tutor.Subjects)</p>
+                    <p><strong>Experience:</strong> @tutor.TutoringExperience</p>
+                    <p><strong>Level:</strong> @tutor.PreferredTeachingLevel</p>
+                    <p><strong>Languages:</strong> @string.Join(", ", tutor.Languages)</p>
+                    <p><strong>Location:</strong> @tutor.Location</p>
+                    
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No recommended tutors to display.</p>
+    }
+</div>
+ 

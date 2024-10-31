@@ -20,6 +20,52 @@ namespace WeRTutorsV2.Controllers
         }
 
         [HttpGet]
+        public IActionResult TutorRecommendation()
+        {
+            return View(new List<TutorSignupModel>());
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> TutorRecommendation(List<string> subjects, List<string> experiences, List<string> levels, List<string> languages)
+        {
+            try
+            {
+                FirebaseResponse response = await _client.GetAsync("tempTutor");
+                var tutorsData = response.ResultAs<Dictionary<string, TutorSignupModel>>();
+
+                if (tutorsData == null || tutorsData.Count == 0)
+                {
+                    ViewBag.Message = "No tutors found.";
+                    return View(new List<TutorSignupModel>());
+                }
+
+                var tutorsList = tutorsData.Values.ToList();
+
+                // Filter tutors based on selected criteria
+                var filteredTutors = tutorsList.Where(tutor =>
+                    (subjects == null || subjects.Count == 0 || (tutor.Subjects != null && tutor.Subjects.Any(subject => subjects.Contains(subject)))) &&
+                    (experiences == null || experiences.Count == 0 || (tutor.TutoringExperience != null && experiences.Contains(tutor.TutoringExperience))) &&
+                    (levels == null || levels.Count == 0 || (tutor.PreferredTeachingLevel != null && levels.Contains(tutor.PreferredTeachingLevel))) &&
+                    (languages == null || languages.Count == 0 || (tutor.Languages != null && tutor.Languages.Any(language => languages.Contains(language))))
+                ).ToList();
+
+                if (filteredTutors.Count == 0)
+                {
+                    ViewBag.Message = "No tutors match the search criteria.";
+                }
+
+                return View(filteredTutors);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error searching tutors: {ex.Message}");
+                ViewBag.Message = $"Error searching tutors: {ex.Message}";
+                return View(new List<TutorSignupModel>());
+            }
+        }
+
+        [HttpGet]
         public IActionResult Signup()
         {
             return View();
@@ -43,6 +89,7 @@ namespace WeRTutorsV2.Controllers
                     // Set up tutor details to store in the Realtime Database
                     var tutorDetails = new TutorSignupModel
                     {
+
                         Name = model.Name,
                         Surname = model.Surname,
                         Email = model.Email,
@@ -60,7 +107,12 @@ namespace WeRTutorsV2.Controllers
                 }
                 catch (FirebaseAuthException ex)
                 {
-                    ViewBag.Message = $"Error: {ex.Message}";
+                    ViewBag.Message = $"Error creating user: {ex.Message}";
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                    ViewBag.Message = $"Unexpected error: {ex.Message}";
                 }
             }
 
@@ -93,6 +145,34 @@ namespace WeRTutorsV2.Controllers
                 Console.WriteLine($"Error fetching tutors: {ex.Message}");
                 ViewBag.Message = $"Error fetching tutors: {ex.Message}";
                 return View(new List<TutorSignupModel>());
+            }
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> TutorProfile(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+            {
+                return RedirectToAction("TutorRecommendation");
+            }
+            try
+            {
+                FirebaseResponse response = await _client.GetAsync($"tempTutor/{id}");
+                var tutor = response.ResultAs<TutorSignupModel>();
+
+                if (tutor == null)
+                {
+                    ViewBag.Message = "Tutor not found.";
+                    return RedirectToAction("TutorRecommendation");
+                }
+
+                return View(tutor);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error fetching tutor profile: {ex.Message}");
+                ViewBag.Message = $"Error fetching tutor profile: {ex.Message}";
+                return RedirectToAction("TutorRecommendation");
             }
         }
     }

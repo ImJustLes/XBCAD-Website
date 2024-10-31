@@ -5,6 +5,9 @@ namespace WeRTutorsV2.Models
 {
     public class TutorSignupModel
     {
+        
+        //public string Uid { get; set; }
+
         [Required]
         public string Name { get; set; }
 
@@ -24,12 +27,12 @@ namespace WeRTutorsV2.Models
         public List<string> Subjects { get; set; } // Update this to a list to handle multiple subjects
 
         [Required]
-        [JsonConverter(typeof(SingleOrArrayConverter<string>))]
-        public List<string> TutoringExperience { get; set; }
+        
+        public string TutoringExperience { get; set; }
 
         [Required]
-        [JsonConverter(typeof(SingleOrArrayConverter<string>))]
-        public List<string> PreferredTeachingLevel { get; set; }
+        
+        public string PreferredTeachingLevel { get; set; }
 
         [Required]
         [JsonConverter(typeof(SingleOrArrayConverter<string>))]

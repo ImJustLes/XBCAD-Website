@@ -14,8 +14,8 @@ namespace WeRTutorsV2.Controllers
         // Initialize Firebase configuration
         private static IFirebaseConfig config = new FirebaseConfig
         {
-            AuthSecret = "Zhgb2srnouL9kwyuTmsCfqIo32zT3BKCASCDzRP7",  // Replace with your database secret
-            BasePath = "https://wertutors-v1-default-rtdb.firebaseio.com/"  // Replace with your database URL
+            AuthSecret = "AIzaSyBt8zopSMcOQ2aom2DKw8zJui8Ni0QB2Sc",  // Replace with your database secret
+            BasePath = "https://wertutors-v2-default-rtdb.firebaseio.com/"  // Replace with your database URL
         };
 
         private IFirebaseClient client;
@@ -56,7 +56,7 @@ namespace WeRTutorsV2.Controllers
                         DisplayName = $"{model.Name} {model.Surname}",
                     });
 
-                    // Add user details to Firebase Realtime Database
+                    // Add user details to Firebase Realtime Database under "client" path
                     var userDetails = new
                     {
                         Name = model.Name,
@@ -64,8 +64,8 @@ namespace WeRTutorsV2.Controllers
                         Email = model.Email
                     };
 
-                    // Save user to Firebase Realtime Database using FireSharp
-                    SetResponse response = await client.SetAsync($"users/{user.Uid}", userDetails);
+                    // Save user to Firebase Realtime Database under "client" path
+                    SetResponse response = await client.SetAsync($"client/{user.Uid}", userDetails);
                     ViewBag.Message = "User registered successfully!";
                 }
                 catch (FirebaseAuthException ex)

@@ -25,7 +25,7 @@ namespace WeRTutorsV2
             try
             {
                 // Map the path to the Firebase credentials file
-                var firebaseCredentialPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "wertutors-v1-firebase-adminsdk-il2vg-aa59d961e4.json");
+                var firebaseCredentialPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "wertutors-v2-firebase-adminsdk-f7ogw-7ad291fda3.json");
 
                 // Initialize Firebase App
                 FirebaseApp.Create(new AppOptions()
@@ -50,8 +50,8 @@ namespace WeRTutorsV2
             {
                 IFirebaseConfig config = new FirebaseConfig
                 {
-                    AuthSecret = "Zhgb2srnouL9kwyuTmsCfqIo32zT3BKCASCDzRP7",  // Add your AuthSecret here
-                    BasePath = "https://wertutors-v1-default-rtdb.firebaseio.com/"  // Add your Firebase database URL here
+                    AuthSecret = "AIzaSyBt8zopSMcOQ2aom2DKw8zJui8Ni0QB2Sc",  // Add your AuthSecret here
+                    BasePath = "https://wertutors-v2-default-rtdb.firebaseio.com/"  // Add your Firebase database URL here
                 };
 
                 return new FirebaseClient(config);

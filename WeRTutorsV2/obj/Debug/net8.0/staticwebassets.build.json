@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XgM++gOi+AxlwF1WSPydkM3u2xIZe7w1ViDDyMQIFvg=",
+  "Hash": "Ptk9LTqgSJTqnXTzi0qdpf9nJFcodWlh4BtyRaFU2pI=",
   "Source": "WeRTutorsV2",
   "BasePath": "_content/WeRTutorsV2",
   "Mode": "Default",
@@ -129,6 +129,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",
+      "SourceId": "WeRTutorsV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\",
+      "BasePath": "_content/WeRTutorsV2",
+      "RelativePath": "css/tutorProfile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tutorProfile.css"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorRecommStyles.css",
+      "SourceId": "WeRTutorsV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\",
+      "BasePath": "_content/WeRTutorsV2",
+      "RelativePath": "css/tutorRecommStyles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tutorRecommStyles.css"
     },
     {
       "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorStyle.css",
@@ -1309,12 +1347,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\wertutors-v1-firebase-adminsdk-il2vg-aa59d961e4.json",
+      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\wertutors-v2-firebase-adminsdk-f7ogw-7ad291fda3.json",
       "SourceId": "WeRTutorsV2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\",
       "BasePath": "_content/WeRTutorsV2",
-      "RelativePath": "wertutors-v1-firebase-adminsdk-il2vg-aa59d961e4.json",
+      "RelativePath": "wertutors-v2-firebase-adminsdk-f7ogw-7ad291fda3.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1325,7 +1363,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\wertutors-v1-firebase-adminsdk-il2vg-aa59d961e4.json"
+      "OriginalItemSpec": "wwwroot\\wertutors-v2-firebase-adminsdk-f7ogw-7ad291fda3.json"
     }
   ]
 }
