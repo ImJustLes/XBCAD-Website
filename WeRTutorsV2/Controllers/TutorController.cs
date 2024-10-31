@@ -148,32 +148,42 @@ namespace WeRTutorsV2.Controllers
             }
         }
 
+
+
         [HttpGet]
-        public async Task<IActionResult> TutorProfile(string id)
+        public IActionResult TutorProfile()
         {
-            if (string.IsNullOrEmpty(id))
+            // Load profile data from TempData to display in the view
+            var tutorProfile = new TutorSignupModel
             {
-                return RedirectToAction("TutorRecommendation");
-            }
-            try
-            {
-                FirebaseResponse response = await _client.GetAsync($"tempTutor/{id}");
-                var tutor = response.ResultAs<TutorSignupModel>();
+                Name = TempData["Name"]?.ToString(),
+                Surname = TempData["Surname"]?.ToString(),
+                Email = TempData["Email"]?.ToString(),
+                PhoneNumber = TempData["PhoneNumber"]?.ToString(),
+                Subjects = TempData["Subjects"]?.ToString().Split(',').ToList(),
+                TutoringExperience = TempData["TutoringExperience"]?.ToString(),
+                PreferredTeachingLevel = TempData["PreferredTeachingLevel"]?.ToString(),
+                Languages = TempData["Languages"]?.ToString().Split(',').ToList(),
+                Location = TempData["Location"]?.ToString()
+            };
 
-                if (tutor == null)
-                {
-                    ViewBag.Message = "Tutor not found.";
-                    return RedirectToAction("TutorRecommendation");
-                }
+            return View(tutorProfile);
+        }
 
-                return View(tutor);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error fetching tutor profile: {ex.Message}");
-                ViewBag.Message = $"Error fetching tutor profile: {ex.Message}";
-                return RedirectToAction("TutorRecommendation");
-            }
+        [HttpPost]
+        public IActionResult SetTutorTempData(TutorSignupModel tutor)
+        {
+            TempData["Name"] = tutor.Name;
+            TempData["Surname"] = tutor.Surname;
+            TempData["Email"] = tutor.Email;
+            TempData["PhoneNumber"] = tutor.PhoneNumber;
+            TempData["Subjects"] = string.Join(",", tutor.Subjects); // Convert to comma-separated string
+            TempData["TutoringExperience"] = tutor.TutoringExperience;
+            TempData["PreferredTeachingLevel"] = tutor.PreferredTeachingLevel;
+            TempData["Languages"] = string.Join(",", tutor.Languages); // Convert to comma-separated string
+            TempData["Location"] = tutor.Location;
+
+            return RedirectToAction("TutorProfile");
         }
     }
 }

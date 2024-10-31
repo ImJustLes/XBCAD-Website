@@ -1,30 +1,38 @@
 ﻿@model WeRTutorsV2.Models.TutorSignupModel
 <link rel="stylesheet" href="~/css/tutorProfile.css" />
-<div class="container mt-4">
-    <h2>Tutor Profile</h2>
 
-    <div>
-        <strong>Name:</strong> @Model.Name @Model.Surname
-    </div>
-    <div>
-        <strong>Email:</strong> @Model.Email
-    </div>
-    <div>
-        <strong>Phone Number:</strong> @Model.PhoneNumber
-    </div>
-    <div>
-        <strong>Subjects:</strong> @String.Join(", ", Model.Subjects)
-    </div>
-    <div>
-        <strong>Tutoring Experience:</strong> @String.Join(", ", Model.TutoringExperience)
-    </div>
-    <div>
-        <strong>Preferred Teaching Level:</strong> @String.Join(", ", Model.PreferredTeachingLevel)
-    </div>
-    <div>
-        <strong>Languages:</strong> @String.Join(", ", Model.Languages)
-    </div>
-    <div>
-        <strong>Location:</strong> @Model.Location
-    </div>
+<div class="container mt-4">
+    <h2>@Model.Name @Model.Surname's Profile</h2>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Phone:</strong> @Model.PhoneNumber</p>
+
+    <!-- Subjects -->
+    @if (Model.Subjects != null && Model.Subjects.Any())
+    {
+        <p><strong>Subjects:</strong> @string.Join(", ", Model.Subjects)</p>
+    }
+    else
+    {
+        <p><strong>Subjects:</strong> Not specified</p>
+    }
+
+    <p><strong>Experience:</strong> @Model.TutoringExperience</p>
+    <p><strong>Level:</strong> @Model.PreferredTeachingLevel</p>
+
+    <!-- Languages -->
+    @if (Model.Languages != null && Model.Languages.Any())
+    {
+        <p><strong>Languages:</strong> @string.Join(", ", Model.Languages)</p>
+    }
+    else
+    {
+        <p><strong>Languages:</strong> Not specified</p>
+    }
+
+    <p><strong>Location:</strong> @Model.Location</p>
+
+    <!-- Back button -->
+    <button onclick="window.location.href='@Url.Action("TutorRecommendation", "Tutor")'" class="btn btn-secondary mt-3">
+        Back to Tutor Recommendations
+    </button>
 </div>

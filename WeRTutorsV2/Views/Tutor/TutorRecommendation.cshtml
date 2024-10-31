@@ -77,7 +77,20 @@
                     <p><strong>Level:</strong> @tutor.PreferredTeachingLevel</p>
                     <p><strong>Languages:</strong> @string.Join(", ", tutor.Languages)</p>
                     <p><strong>Location:</strong> @tutor.Location</p>
-                    
+
+                    <!-- Button to set TempData and redirect to profile view -->
+                    <form asp-controller="Tutor" asp-action="SetTutorTempData" method="post">
+                        <input type="hidden" name="Name" value="@tutor.Name" />
+                        <input type="hidden" name="Surname" value="@tutor.Surname" />
+                        <input type="hidden" name="Email" value="@tutor.Email" />
+                        <input type="hidden" name="PhoneNumber" value="@tutor.PhoneNumber" />
+                        <input type="hidden" name="Subjects" value="@string.Join(",", tutor.Subjects)" />
+                        <input type="hidden" name="TutoringExperience" value="@tutor.TutoringExperience" />
+                        <input type="hidden" name="PreferredTeachingLevel" value="@tutor.PreferredTeachingLevel" />
+                        <input type="hidden" name="Languages" value="@string.Join(",", tutor.Languages)" />
+                        <input type="hidden" name="Location" value="@tutor.Location" />
+                        <button type="submit" class="btn btn-secondary">View Profile</button>
+                    </form>
                 </div>
             }
         </div>
