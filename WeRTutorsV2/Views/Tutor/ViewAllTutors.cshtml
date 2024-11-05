@@ -1,43 +1,65 @@
 ﻿@model List<WeRTutorsV2.Models.TutorSignupModel>
 
-<div class="container mt-5">
-    <h2>All Tutors</h2>
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Surname</th>
-                <th>Email</th>
-                <th>Phone Number</th>
-                <th>Subjects</th>
-                <th>Experience</th>
-                <th>Teaching Level</th>
-                <th>Languages</th>
-                <th>Location</th>
-            </tr>
-        </thead>
-        <tbody>
-            @if (Model.Count == 0)
-            {
-                <tr><td colspan="9" class="text-center">No tutors available</td></tr>
-            }
-            else
-            {
-                foreach (var tutor in Model)
-                {
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Submit a review and provide feedback for your tutors based on your experience with WeRTutors.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/ViewAllTutors.css">
+    <title>Review Tutor - WeRTutors</title>
+    
+</head>
+<body>
+    <header>
+        <a href="https://wertutors.co.za" class="logo" style="text-align: center">WeRTutors</a>
+        <img src="~/images/WRT-Website-Logo (1).jpg" alt="WeRTutors Logo" />
+    </header>
+    
+
+    <main>
+        <div class="container mt-5">
+            <h1>All Tutors</h1>
+            <table class="table table-striped">
+                <thead>
                     <tr>
-                        <td>@tutor.Name</td>
-                        <td>@tutor.Surname</td>
-                        <td>@tutor.Email</td>
-                        <td>@tutor.PhoneNumber</td>
-                        <td>@string.Join(", ", tutor.Subjects)</td>
-                        <td>@string.Join(", ", tutor.TutoringExperience)</td>
-                        <td>@string.Join(", ", tutor.PreferredTeachingLevel)</td>
-                        <td>@string.Join(", ", tutor.Languages)</td>
-                        <td>@tutor.Location</td>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Subjects</th>
+                        <th>Experience</th>
+                        <th>Teaching Level</th>
+                        <th>Languages</th>
+                        <th>Location</th>
                     </tr>
-                }
-            }
-        </tbody>
-    </table>
-</div>
+                </thead>
+                <tbody>
+                    @if (Model.Count == 0)
+                    {
+                        <tr><td colspan="9" class="text-center">No tutors available</td></tr>
+                    }
+                    else
+                    {
+                        foreach (var tutor in Model)
+                        {
+                            <tr>
+                                <td>@tutor.Name</td>
+                                <td>@tutor.Surname</td>
+                                <td>@tutor.Email</td>
+                                <td>@tutor.PhoneNumber</td>
+                                <td>@string.Join(", ", tutor.Subjects)</td>
+                                <td>@string.Join(", ", tutor.TutoringExperience)</td>
+                                <td>@string.Join(", ", tutor.PreferredTeachingLevel)</td>
+                                <td>@string.Join(", ", tutor.Languages)</td>
+                                <td>@tutor.Location</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
+

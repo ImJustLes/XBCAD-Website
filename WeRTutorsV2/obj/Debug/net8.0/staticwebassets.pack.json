@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\style_homepage.css",
+      "PackagePath": "staticwebassets\\css\\style_homepage.css"
+    },
+    {
       "Id": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",
       "PackagePath": "staticwebassets\\css\\tutorProfile.css"
     },

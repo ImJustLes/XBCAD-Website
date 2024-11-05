@@ -3,148 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\tutor\\tutorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\tutor\\tutorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\controllers\\tutorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\controllers\\tutorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|c:\\users\\lab_services_student\\source\\repos\\wertutorsv2\\wertutorsv2\\wwwroot\\css\\tutorrecommstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\tutorrecommstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\viewalltutors.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\viewalltutors.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\tutor\\tutorrecommendation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\tutor\\tutorrecommendation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|c:\\users\\lab_services_student\\source\\repos\\wertutorsv2\\wertutorsv2\\views\\tutor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\tutor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|c:\\users\\lab_services_student\\source\\repos\\wertutorsv2\\wertutorsv2\\models\\tutorsignupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\models\\tutorsignupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\tutor\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\tutor\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\models\\singleorarrayconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\models\\singleorarrayconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\tutorprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\tutorprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\tutorrecommstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\tutorrecommstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\tutor\\viewalltutors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\tutor\\viewalltutors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\tutor\\tutorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\tutor\\tutorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\models\\feedbackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\models\\feedbackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\tutorstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\tutorstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\layoutstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\layoutstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\tutor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\tutor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\tutorprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\tutorprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\style_homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\style_homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\authstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\authstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\tutor\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\tutor\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\feedbackstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\feedbackstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\models\\feedbackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\models\\feedbackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wertutorsv2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wertutorsv2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\viewalltutors.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\viewalltutors.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\wwwroot\\css\\layoutstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\wwwroot\\css\\layoutstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\wertutorsv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35536435-BCE8-47E9-845C-6E8024460A66}|WeRTutorsV2\\WeRTutorsV2.csproj|solutionrelative:wertutorsv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -198,349 +150,213 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TutorProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\TutorProfile.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Tutor\\TutorProfile.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\TutorProfile.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Tutor\\TutorProfile.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAswB8AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T07:14:44.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TutorRecommendation.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\TutorRecommendation.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Tutor\\TutorRecommendation.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\TutorRecommendation.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Tutor\\TutorRecommendation.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAswGQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T20:37:23.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TutorController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Controllers\\TutorController.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Controllers\\TutorController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Controllers\\TutorController.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Controllers\\TutorController.cs",
-              "ViewState": "AQIAAK0AAAAAAAAAAAA9wLcAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:48:27.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\Index.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Tutor\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\Index.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Tutor\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T12:48:31.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TutorSignupModel.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\TutorSignupModel.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Models\\TutorSignupModel.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\TutorSignupModel.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Models\\TutorSignupModel.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAzwDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:46:35.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Program.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Program.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Program.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAkwFUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T16:03:59.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Signup.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\Signup.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Tutor\\Signup.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\Signup.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Tutor\\Signup.cshtml",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAAYwM0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T08:49:46.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBgAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T21:15:29.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SingleOrArrayConverter.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\SingleOrArrayConverter.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Models\\SingleOrArrayConverter.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\SingleOrArrayConverter.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Models\\SingleOrArrayConverter.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAkwDYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T12:24:56.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAUwHEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T16:08:09.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\LoginModel.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Models\\LoginModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T16:07:32.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SignupModel.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\SignupModel.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Models\\SignupModel.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\SignupModel.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Models\\SignupModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T16:07:00.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "tutorProfile.css",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",
-              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvzIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-30T07:42:39.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T21:20:25.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "tutorRecommStyles.css",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorRecommStyles.css",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\tutorRecommStyles.css",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorRecommStyles.css",
-              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\tutorRecommStyles.css",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAAF4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-27T20:28:15.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Signup.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Auth\\Signup.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Auth\\Signup.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Auth\\Signup.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Auth\\Signup.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAYwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T20:38:41.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FeedbackController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Controllers\\FeedbackController.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Controllers\\FeedbackController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Controllers\\FeedbackController.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Controllers\\FeedbackController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwBQAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:12:32.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\appsettings.json",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\appsettings.json",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\appsettings.json",
-              "RelativeToolTip": "WeRTutorsV2\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-20T21:20:31.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ViewAllTutors.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\ViewAllTutors.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Tutor\\ViewAllTutors.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\ViewAllTutors.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Tutor\\ViewAllTutors.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T08:15:44.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T18:55:12.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T21:32:00.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T21:34:02.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FeedbackModel.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\FeedbackModel.cs",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Models\\FeedbackModel.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\FeedbackModel.cs",
-              "RelativeToolTip": "WeRTutorsV2\\Models\\FeedbackModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:11:55.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "tutorStyle.css",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorStyle.css",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\tutorStyle.css",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorStyle.css",
-              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\tutorStyle.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-23T09:18:47.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
               "Title": "ViewAllTutors.css",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\ViewAllTutors.css",
               "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\ViewAllTutors.css",
               "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\ViewAllTutors.css",
               "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\ViewAllTutors.css",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "ViewState": "AQIAAKMBAAAAAAAAAAAIwMEBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-26T08:17:26.276Z"
+              "WhenOpened": "2024-11-04T14:54:50.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-23T09:30:18.693Z"
+              "DocumentIndex": 0,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Auth\\Signup.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Auth\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Auth\\Signup.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Auth\\Signup.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T14:41:17.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "layoutStyle.css",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\layoutStyle.css",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\layoutStyle.css",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\layoutStyle.css",
-              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\layoutStyle.css",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAswGUAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "tutorRecommStyles.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorRecommStyles.css",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\tutorRecommStyles.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorRecommStyles.css",
+              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\tutorRecommStyles.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-21T22:07:27.343Z"
+              "WhenOpened": "2024-10-27T20:28:15.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Feedback\\Index.cshtml",
               "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Feedback\\Index.cshtml",
               "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Feedback\\Index.cshtml",
               "RelativeToolTip": "WeRTutorsV2\\Views\\Feedback\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T20:29:30.754Z"
+              "WhenOpened": "2024-11-04T10:14:46.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 10,
+              "Title": "style_homepage.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\style_homepage.css",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\style_homepage.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\style_homepage.css",
+              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\style_homepage.css",
+              "ViewState": "AQIAACQCAAAAAAAAAAAIwEICAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-02T14:03:59.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T20:39:36.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewAllTutors.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\ViewAllTutors.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Tutor\\ViewAllTutors.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\ViewAllTutors.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Tutor\\ViewAllTutors.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T08:15:44.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TutorRecommendation.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\TutorRecommendation.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Tutor\\TutorRecommendation.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\TutorRecommendation.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Tutor\\TutorRecommendation.cshtml",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAowH4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T20:37:23.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TutorProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\TutorProfile.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Tutor\\TutorProfile.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\TutorProfile.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Tutor\\TutorProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T15:08:40.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\Index.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Tutor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\Index.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Tutor\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T10:58:52.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Home\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Home\\HomePage.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Home\\HomePage.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Home\\HomePage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T13:58:31.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "tutorProfile.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",
+              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T15:04:56.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\Signup.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Tutor\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Tutor\\Signup.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Tutor\\Signup.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T08:49:46.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "feedBackstyles.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\feedBackstyles.css",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\feedBackstyles.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\feedBackstyles.css",
+              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\feedBackstyles.css",
+              "ViewState": "AQIAADUBAAAAAAAAAAAswFMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T10:29:34.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Controllers\\FeedbackController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "WeRTutorsV2\\Controllers\\FeedbackController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAkwFgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:49:05.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FeedbackModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\FeedbackModel.cs",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Models\\FeedbackModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Models\\FeedbackModel.cs",
+              "RelativeToolTip": "WeRTutorsV2\\Models\\FeedbackModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:50:33.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T14:08:05.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Home\\Privacy.cshtml",
@@ -548,47 +364,71 @@
               "RelativeToolTip": "WeRTutorsV2\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T21:16:34.264Z"
+              "WhenOpened": "2024-11-04T10:58:58.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "DocumentIndex": 19,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T20:39:36.915Z"
+              "WhenOpened": "2024-11-04T10:58:56.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T21:32:00.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "layoutStyle.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\layoutStyle.css",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\layoutStyle.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\layoutStyle.css",
+              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\layoutStyle.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-20T21:31:17.44Z"
+              "WhenOpened": "2024-11-04T10:36:03.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AuthStyle.css",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\AuthStyle.css",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\AuthStyle.css",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\AuthStyle.css",
-              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\AuthStyle.css",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAEgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-20T21:10:51.614Z"
+              "DocumentIndex": 21,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WeRTutorsV2\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T21:20:25.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Program.cs",
+              "RelativeDocumentMoniker": "WeRTutorsV2\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Program.cs",
+              "RelativeToolTip": "WeRTutorsV2\\Program.cs",
+              "ViewState": "AQIAAEAAAACAmZmZmdkswE4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:03:59.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\_ViewImports.cshtml",
@@ -597,42 +437,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-20T21:20:21.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "feedBackstyles.css",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\feedBackstyles.css",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\wwwroot\\css\\feedBackstyles.css",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\feedBackstyles.css",
-              "RelativeToolTip": "WeRTutorsV2\\wwwroot\\css\\feedBackstyles.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-20T21:03:36.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WeRTutorsV2\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T21:15:47.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "WeRTutorsV2.csproj",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\WeRTutorsV2.csproj",
-              "RelativeDocumentMoniker": "WeRTutorsV2\\WeRTutorsV2.csproj",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\WeRTutorsV2.csproj",
-              "RelativeToolTip": "WeRTutorsV2\\WeRTutorsV2.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-19T16:27:20.758Z"
             }
           ]
         }

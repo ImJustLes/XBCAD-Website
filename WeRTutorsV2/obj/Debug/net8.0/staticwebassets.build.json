@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ptk9LTqgSJTqnXTzi0qdpf9nJFcodWlh4BtyRaFU2pI=",
+  "Hash": "wVG9jP8seg5zLfsxTkGzvIIBcj10RE5/NSn08DgCp1s=",
   "Source": "WeRTutorsV2",
   "BasePath": "_content/WeRTutorsV2",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\style_homepage.css",
+      "SourceId": "WeRTutorsV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\",
+      "BasePath": "_content/WeRTutorsV2",
+      "RelativePath": "css/style_homepage.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style_homepage.css"
     },
     {
       "Identity": "C:\\Users\\lab_services_student\\source\\repos\\WeRTutorsV2\\WeRTutorsV2\\wwwroot\\css\\tutorProfile.css",

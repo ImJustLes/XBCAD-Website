@@ -8,58 +8,77 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 30px;
     background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Header */
 h2 {
     text-align: center;
     color: #333;
-    margin-bottom: 20px;
-    font-size: 24px;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 /* Search Form */
 form.form-inline {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
+    gap: 15px;
+    margin-bottom: 25px;
 }
 
-input[type="text"] {
-    width: 300px;
-    padding: 10px;
+input[type="text"],
+select {
+    width: 350px;
+    padding: 12px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
 }
 
 button[type="submit"] {
-    padding: 10px 20px;
+    padding: 12px 25px;
     font-size: 16px;
     color: #fff;
     background-color: #007bff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
     button[type="submit"]:hover {
         background-color: #0056b3;
     }
 
+/* Clear Button */
+button[type="button"] {
+    padding: 12px 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+    button[type="button"]:hover {
+        background-color: #5a6268;
+    }
+
 /* Table Styles */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
     table thead {
@@ -69,7 +88,7 @@ table {
 
     table th,
     table td {
-        padding: 12px;
+        padding: 14px;
         text-align: left;
         border-bottom: 1px solid #ddd;
     }
@@ -83,12 +102,12 @@ table {
     }
 
     table tr td {
-        font-size: 14px;
+        font-size: 15px;
     }
 
 .text-center {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: #777;
-    margin-top: 20px;
+    margin-top: 25px;
 }

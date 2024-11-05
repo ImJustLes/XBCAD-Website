@@ -1,35 +1,91 @@
-﻿@model WeRTutorsV2.Models.FeedbackModel
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Submit a review and provide feedback for your tutors based on your experience with WeRTutors.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/feedBackstyles.css">
+    <title>Review Tutor - WeRTutors</title>
+    <style>
+        .success-message {
+            color: #28a745; /* Green color for success */
+            font-weight: bold;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">WeRTutors</a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/client-dashboard">Dashboard</a></li>
+            <li><a href="/client-profile">Profile</a></li>
+            <li><a href="/find-tutors">Find Tutors</a></li>
+            <li><a href="/client-resources">Resources</a></li>
+        </ul>
+    </nav>
 
-<img src="~/images/WRT-Website-Logo (1).jpg" alt="WeRTutors Logo" />
-<link rel="stylesheet" href="~/css/feedBackstyles.css"/>
-<h2>Submit Your Feedback</h2>
+    <main>
+        <h1>Review Tutor</h1>
 
-<form method="post" action="/Feedback/Index">
-    <div>
-        <label>Full Name:</label>
-        <input type="text" name="FullName" required />
-    </div>
-    <div>
-        <label>Email:</label>
-        <input type="email" name="Email" required />
-    </div>
-    <div>
-        <label>Comment/Review:</label>
-        <textarea name="Comment" required></textarea>
-    </div>
-    <div>
-        <label>Tutor's Name:</label>
-        <input type="text" name="TutorName" required />
-    </div>
-    <div>
-        <label>Subject:</label>
-        <input type="text" name="Subject" required />
-    </div>
-    <button type="submit">Submit Feedback</button>
-</form>
+        <section class="review-form">
+            <h2>Submit a Review</h2>
 
-@if (ViewBag.Message != null)
-{
-    <p style="color: green;">@ViewBag.Message</p>
-}
+            <!-- Success Message Display -->
+            @if (ViewBag.Message != null)
+            {
+                <div class="success-message">@ViewBag.Message</div>
+            }
 
+            <form method="post" action="/Feedback/Index">
+                <!-- Tutor Dropdown -->
+                <label for="tutor">Select Tutor:</label>
+                <select id="tutor" name="TutorName" required>
+                    <option value="">Select a tutor</option>
+                    @if (ViewBag.TutorNames != null && ((List<string>)ViewBag.TutorNames).Count > 0)
+                    {
+                        @foreach (var fullName in ViewBag.TutorNames as List<string>)
+                        {
+                            <option value="@fullName">@fullName</option>
+                        }
+                    }
+                    else
+                    {
+                        <option value="" disabled>No tutors available</option>
+                    }
+                </select>
+
+                <!-- Subject Checkboxes -->
+                <label>Subject(s):</label>
+                <div class="subject-options">
+                    <input type="checkbox" name="Subject" value="Math" /> Math
+                    <input type="checkbox" name="Subject" value="Science" /> Science
+                    <input type="checkbox" name="Subject" value="English" /> English
+                    <input type="checkbox" name="Subject" value="History" /> History
+                    <input type="checkbox" name="Subject" value="Computer Science" /> Computer Science
+                </div>
+
+                <!-- Rating Section (Star Rating) -->
+                <label>Rating:</label>
+                <div class="star-rating">
+                    <input type="radio" id="star5" name="Rating" value="5" /><label for="star5" title="5 stars">☆</label>
+                    <input type="radio" id="star4" name="Rating" value="4" /><label for="star4" title="4 stars">☆</label>
+                    <input type="radio" id="star3" name="Rating" value="3" /><label for="star3" title="3 stars">☆</label>
+                    <input type="radio" id="star2" name="Rating" value="2" /><label for="star2" title="2 stars">☆</label>
+                    <input type="radio" id="star1" name="Rating" value="1" /><label for="star1" title="1 star">☆</label>
+                </div>
+
+                <!-- Feedback Text Area -->
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="Comment" rows="5" placeholder="Please provide your feedback" required></textarea>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

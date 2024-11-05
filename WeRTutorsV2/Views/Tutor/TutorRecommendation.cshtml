@@ -1,103 +1,127 @@
 ﻿@model List<WeRTutorsV2.Models.TutorSignupModel>
-<link rel="stylesheet" href="~/css/tutorRecommStyles.css" />
-<div class="container mt-4">
-    <h2>Tutor Recommendation</h2>
-    <form asp-action="TutorRecommendation" method="post">
-        <!-- Subjects -->
-        <fieldset>
-            <legend>Subjects</legend>
-            <div class="checkbox-group">
-                <label><input type="checkbox" name="subjects" value="Math" /> Math</label>
-                <label><input type="checkbox" name="subjects" value="Science" /> Science</label>
-                <label><input type="checkbox" name="subjects" value="English" /> English</label>
-                <label><input type="checkbox" name="subjects" value="History" /> History</label>
-                <label><input type="checkbox" name="subjects" value="Computer Science" /> Computer Science</label>
-                <label><input type="checkbox" name="subjects" value="Physics" /> Physics</label>
-                <label><input type="checkbox" name="subjects" value="Biology" /> Biology</label>
-                <label><input type="checkbox" name="subjects" value="Chemistry" /> Chemistry</label>
-            </div>
-        </fieldset>
 
-        <!-- Tutoring Experience -->
-        <fieldset>
-            <legend>Tutoring Experience</legend>
-            <div class="checkbox-group">
-                <label><input type="checkbox" name="experiences" value="Less than 1 year" /> Less than 1 year</label>
-                <label><input type="checkbox" name="experiences" value="1-2 years" /> 1-2 years</label>
-                <label><input type="checkbox" name="experiences" value="3-5 years" /> 3-5 years</label>
-                <label><input type="checkbox" name="experiences" value="6-10 years" /> 6-10 years</label>
-                <label><input type="checkbox" name="experiences" value="More than 10 years" /> More than 10 years</label>
-            </div>
-        </fieldset>
 
-        <!-- Preferred Teaching Level -->
-        <fieldset>
-            <legend>Preferred Teaching Level</legend>
-            <div class="checkbox-group">
-                <label><input type="checkbox" name="levels" value="Primary School" /> Primary School</label>
-                <label><input type="checkbox" name="levels" value="High School" /> High School</label>
-                <label><input type="checkbox" name="levels" value="College/University" /> College/University</label>
-                <label><input type="checkbox" name="levels" value="Adult Learners" /> Adult Learners</label>
-                <label><input type="checkbox" name="levels" value="All Levels" /> All levels</label>
-            </div>
-        </fieldset>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Submit a review and provide feedback for your tutors based on your experience with WeRTutors.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/ViewAllTutors.css">
+    <title>Review Tutor - WeRTutors</title>
+    
+</head>
+<body>
+    <header>
+        <a href="https://wertutors.co.za" class="logo" style="text-align: center">WeRTutors</a>
+        <img src="~/images/WRT-Website-Logo (1).jpg" alt="WeRTutors Logo" />
+    </header>
+    
 
-        <!-- Languages -->
-        <fieldset>
-            <legend>Languages</legend>
-            <div class="checkbox-group">
-                <label><input type="checkbox" name="languages" value="English" /> English</label>
-                <label><input type="checkbox" name="languages" value="Spanish" /> Spanish</label>
-                <label><input type="checkbox" name="languages" value="French" /> French</label>
-                <label><input type="checkbox" name="languages" value="Afrikaans" /> Afrikaans</label>
-                <label><input type="checkbox" name="languages" value="IsiZulu" /> IsiZulu</label>
-                <label><input type="checkbox" name="languages" value="Setswana" /> Setswana</label>
-            </div>
-        </fieldset>
+    <main>
+        <div class="container mt-4">
+            <h2>Tutor Recommendation</h2>
+            <form asp-action="TutorRecommendation" method="post">
+                <!-- Subjects -->
+                <fieldset>
+                    <legend>Subjects</legend>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="subjects" value="Math" /> Math</label>
+                        <label><input type="checkbox" name="subjects" value="Science" /> Science</label>
+                        <label><input type="checkbox" name="subjects" value="English" /> English</label>
+                        <label><input type="checkbox" name="subjects" value="History" /> History</label>
+                        <label><input type="checkbox" name="subjects" value="Computer Science" /> Computer Science</label>
+                        <label><input type="checkbox" name="subjects" value="Physics" /> Physics</label>
+                        <label><input type="checkbox" name="subjects" value="Biology" /> Biology</label>
+                        <label><input type="checkbox" name="subjects" value="Chemistry" /> Chemistry</label>
+                    </div>
+                </fieldset>
 
-        <!-- Search Button -->
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary">Search</button>
-        </div>
-    </form>
+                <!-- Tutoring Experience -->
+                <fieldset>
+                    <legend>Tutoring Experience</legend>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="experiences" value="Less than 1 year" /> Less than 1 year</label>
+                        <label><input type="checkbox" name="experiences" value="1-2 years" /> 1-2 years</label>
+                        <label><input type="checkbox" name="experiences" value="3-5 years" /> 3-5 years</label>
+                        <label><input type="checkbox" name="experiences" value="6-10 years" /> 6-10 years</label>
+                        <label><input type="checkbox" name="experiences" value="More than 10 years" /> More than 10 years</label>
+                    </div>
+                </fieldset>
 
-    <!-- Display Recommended Tutors -->
-    @if (Model != null && Model.Any())
-    {
-        <h3>Recommended Tutors</h3>
-        <div class="recommended-tutors">
-            @foreach (var tutor in Model)
+                <!-- Preferred Teaching Level -->
+                <fieldset>
+                    <legend>Preferred Teaching Level</legend>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="levels" value="Primary School" /> Primary School</label>
+                        <label><input type="checkbox" name="levels" value="High School" /> High School</label>
+                        <label><input type="checkbox" name="levels" value="College/University" /> College/University</label>
+                        <label><input type="checkbox" name="levels" value="Adult Learners" /> Adult Learners</label>
+                        <label><input type="checkbox" name="levels" value="All Levels" /> All levels</label>
+                    </div>
+                </fieldset>
+
+                <!-- Languages -->
+                <fieldset>
+                    <legend>Languages</legend>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="languages" value="English" /> English</label>
+                        <label><input type="checkbox" name="languages" value="Spanish" /> Spanish</label>
+                        <label><input type="checkbox" name="languages" value="French" /> French</label>
+                        <label><input type="checkbox" name="languages" value="Afrikaans" /> Afrikaans</label>
+                        <label><input type="checkbox" name="languages" value="IsiZulu" /> IsiZulu</label>
+                        <label><input type="checkbox" name="languages" value="Setswana" /> Setswana</label>
+                    </div>
+                </fieldset>
+
+                <!-- Search Button -->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </form>
+
+            <!-- Display Recommended Tutors -->
+            @if (Model != null && Model.Any())
             {
-                <div class="tutor-card">
-                    <h4>@tutor.Name @tutor.Surname</h4>
-                    <p><strong>Email:</strong> @tutor.Email</p>
-                    <p><strong>Phone:</strong> @tutor.PhoneNumber</p>
-                    <p><strong>Subjects:</strong> @string.Join(", ", tutor.Subjects)</p>
-                    <p><strong>Experience:</strong> @tutor.TutoringExperience</p>
-                    <p><strong>Level:</strong> @tutor.PreferredTeachingLevel</p>
-                    <p><strong>Languages:</strong> @string.Join(", ", tutor.Languages)</p>
-                    <p><strong>Location:</strong> @tutor.Location</p>
+                <h3>Recommended Tutors</h3>
+                <div class="recommended-tutors">
+                    @foreach (var tutor in Model)
+                    {
+                        <div class="tutor-card">
+                            <h4>@tutor.Name @tutor.Surname</h4>
+                            <p><strong>Email:</strong> @tutor.Email</p>
+                            <p><strong>Phone:</strong> @tutor.PhoneNumber</p>
+                            <p><strong>Subjects:</strong> @string.Join(", ", tutor.Subjects)</p>
+                            <p><strong>Experience:</strong> @tutor.TutoringExperience</p>
+                            <p><strong>Level:</strong> @tutor.PreferredTeachingLevel</p>
+                            <p><strong>Languages:</strong> @string.Join(", ", tutor.Languages)</p>
+                            <p><strong>Location:</strong> @tutor.Location</p>
 
-                    <!-- Button to set TempData and redirect to profile view -->
-                    <form asp-controller="Tutor" asp-action="SetTutorTempData" method="post">
-                        <input type="hidden" name="Name" value="@tutor.Name" />
-                        <input type="hidden" name="Surname" value="@tutor.Surname" />
-                        <input type="hidden" name="Email" value="@tutor.Email" />
-                        <input type="hidden" name="PhoneNumber" value="@tutor.PhoneNumber" />
-                        <input type="hidden" name="Subjects" value="@string.Join(",", tutor.Subjects)" />
-                        <input type="hidden" name="TutoringExperience" value="@tutor.TutoringExperience" />
-                        <input type="hidden" name="PreferredTeachingLevel" value="@tutor.PreferredTeachingLevel" />
-                        <input type="hidden" name="Languages" value="@string.Join(",", tutor.Languages)" />
-                        <input type="hidden" name="Location" value="@tutor.Location" />
-                        <button type="submit" class="btn btn-secondary">View Profile</button>
-                    </form>
+                            <!-- Button to set TempData and redirect to profile view -->
+                            <form asp-controller="Tutor" asp-action="SetTutorTempData" method="post">
+                                <input type="hidden" name="Name" value="@tutor.Name" />
+                                <input type="hidden" name="Surname" value="@tutor.Surname" />
+                                <input type="hidden" name="Email" value="@tutor.Email" />
+                                <input type="hidden" name="PhoneNumber" value="@tutor.PhoneNumber" />
+                                <input type="hidden" name="Subjects" value="@string.Join(",", tutor.Subjects)" />
+                                <input type="hidden" name="TutoringExperience" value="@tutor.TutoringExperience" />
+                                <input type="hidden" name="PreferredTeachingLevel" value="@tutor.PreferredTeachingLevel" />
+                                <input type="hidden" name="Languages" value="@string.Join(",", tutor.Languages)" />
+                                <input type="hidden" name="Location" value="@tutor.Location" />
+                                <button type="submit" class="btn btn-secondary">View Profile</button>
+                            </form>
+                        </div>
+                    }
                 </div>
             }
+            else
+            {
+                <p>No recommended tutors to display.</p>
+            }
         </div>
-    }
-    else
-    {
-        <p>No recommended tutors to display.</p>
-    }
-</div>
+    </main>
+</body>
+</html>
+
+
  

@@ -1,34 +1,62 @@
 ﻿@model WeRTutorsV2.Models.SignupModel
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="~/css/style_homepage.css" />
+    
+    </head>
 
 
-<link rel="stylesheet" href="~/css/AuthStyle.css"/>
-<img src="~/images/WRT-Website-Logo (1).jpg" alt="WeRTutors Logo"/>
-<h2>Signup</h2>
 
-<form method="post">
-    <div>
-        <label>Name</label>
-        <input type="text" name="Name" required />
-    </div>
-    <div>
-        <label>Surname</label>
-        <input type="text" name="Surname" required />
-    </div>
-    <div>
-        <label>Email</label>
-        <input type="email" name="Email" required />
-    </div>
-    <div>
-        <label>Password</label>
-        <input type="password" name="Password" required />
-    </div>
-    <div>
-        <label>Confirm Password</label>
-        <input type="password" name="ConfirmPassword" required />
-    </div>
-    <button type="submit">Signup</button>
-    <p1>You already have an account? @Html.ActionLink("Login", "Login", "Auth")</p1>
-</form>
+<body>
+
+
+<header>
+    <a href="https://wertutors.co.za" class="logo" style="text-align: center">WeRTutors</a>
+        <img src="~/images/WRT-Website-Logo (1).jpg" alt="WeRTutors Logo" />
+</header>
+
+
+<nav>
+    <ul>
+        <li><a href="#login">Home</a></li>
+        <li><a href="#admin">Admin</a></li>
+        <li><a href="#tutor">Tutor</a></li>
+        <li><a href="#client">Client</a></li>
+    </ul>
+</nav>
+
+
+<div class="container">
+    <section id="signup" class="signup-form">
+        <h2>Signup</h2>
+        <form method="post">
+            <div>
+                <label>Name</label>
+                <input type="text" name="Name" required />
+            </div>
+            <div>
+                <label>Surname</label>
+                <input type="text" name="Surname" required />
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="Email" required />
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="Password" required />
+            </div>
+            <div>
+                <label>Confirm Password</label>
+                <input type="password" name="ConfirmPassword" required />
+            </div>
+            <button type="submit">Signup</button>
+            <p1>You already have an account? @Html.ActionLink("Login", "Login", "Auth")</p1>
+        </form>
+    </section>
+</div>
+</body>
 
 <p>@ViewBag.Message</p>
 
