@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeRTutorsV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ada458acfc9058198f6f7668a744c9291a3166ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb93865cd37bba10fd23281c1d6c41792d9776b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeRTutorsV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeRTutorsV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

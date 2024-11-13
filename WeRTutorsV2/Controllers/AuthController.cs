@@ -67,6 +67,7 @@ namespace WeRTutorsV2.Controllers
                     // Save user to Firebase Realtime Database under "client" path
                     SetResponse response = await client.SetAsync($"client/{user.Uid}", userDetails);
                     ViewBag.Message = "User registered successfully!";
+                    return RedirectToAction("Login", "Auth");
                 }
                 catch (FirebaseAuthException ex)
                 {
@@ -97,7 +98,7 @@ namespace WeRTutorsV2.Controllers
                     if (user != null)
                     {
                         ViewBag.Message = "Login successful!";
-                        return View();  // Stay on the same page after login
+                        return RedirectToAction("Index", "ClientDashboard");  // Go to the dashboard after login
                     }
                 }
                 catch (FirebaseAuthException ex)

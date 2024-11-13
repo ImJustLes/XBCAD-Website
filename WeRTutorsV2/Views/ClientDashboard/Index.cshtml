@@ -1,0 +1,27 @@
+﻿@model WeRTutorsV2.Models.ClientDashboardModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client Dashboard</title>
+    <link rel="stylesheet" href="~/css/style_homepage.css" />
+</head>
+<body>
+    <header>
+        <h1>@Model.WelcomeMessage</h1>
+        <a href="https://wertutors.co.za" class="logo" style="text-align: center">WeRTutors</a>
+        <img src="~/images/WRT-Website-Logo (1).jpg" alt="WeRTutors Logo" />
+    </header>
+
+    <section>
+        <p>This is your client dashboard where you can manage your account and view your activities.</p>
+        <!-- Add more content here based on what you need for the dashboard -->
+        <!-- Buttons for different actions -->
+        <div class="dashboard-actions">
+            <a href="@Url.Action("Index", "Feedback")" class="btn">Send a Feedback </a>
+            <a href="@Url.Action("TutorRecommendation", "Tutor")" class="btn">Find Tutor</a>
+            <a href="@Url.Action("ViewAllTutors", "Tutor")" class="btn">View Tutors</a>
+        </div>
+    </section>
+</body>
+</html>
