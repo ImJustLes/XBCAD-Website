@@ -3,18 +3,63 @@
 <html>
     <head>
     <link rel="stylesheet" href="~/css/style_homepage.css" />
-    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQifiASYnxQthJQMEbagB4uuxyOufNk_s&libraries=places"></script>
+
+    <script>
+        let map, marker;
+
+        function initMap() {
+            // Initialize the map centered on a default location
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: -25.7479, lng: 28.2293 }, // Pretoria, for example
+                zoom: 10,
+            });
+
+            // Add marker on map click
+            map.addListener("click", (e) => {
+                placeMarker(e.latLng);
+            });
+
+            // Initialize Places API autocomplete for the address input
+            const autocomplete = new google.maps.places.Autocomplete(document.getElementById("locationInput"));
+            autocomplete.bindTo("bounds", map);
+
+            // Update map and marker based on autocomplete selection
+            autocomplete.addListener("place_changed", () => {
+                const place = autocomplete.getPlace();
+                if (place.geometry) {
+                    placeMarker(place.geometry.location);
+                }
+            });
+        }
+
+        function placeMarker(location) {
+            if (!marker) {
+                marker = new google.maps.Marker({
+                    position: location,
+                    map: map,
+                });
+            } else {
+                marker.setPosition(location);
+            }
+            map.setCenter(location);
+
+            // Set the latitude and longitude fields
+            document.getElementById("Latitude").value = location.lat();
+            document.getElementById("Longitude").value = location.lng();
+        }
+    </script>
     </head>
-
-
-
-<body>
-
 
 <header>
     <a href="https://wertutors.co.za" class="logo" style="text-align: center">WeRTutors</a>
-        <img src="~/images/WRT-Website-Logo (1).jpg" alt="WeRTutors Logo" />
+    <img src="~/images/WRT-Website-Logo (1).jpg" alt="WeRTutors Logo" />
 </header>
+
+
+<body onload="initMap()">
+
+
 
 
 <nav>
@@ -43,6 +88,20 @@
                 <label>Email</label>
                 <input type="email" name="Email" required />
             </div>
+                <div>
+                    <label>Location</label>
+                    <input type="text" id="locationInput" name="Location" required />
+                </div>
+                <div>
+                    <label>Latitude</label>
+                    <input type="text" id="Latitude" name="Latitude" readonly />
+                </div>
+                <div>
+                    <label>Longitude</label>
+                    <input type="text" id="Longitude" name="Longitude" readonly />
+                </div>
+                <div id="map" style="height: 400px; width: 100%;"></div>
+                <div>
             <div>
                 <label>Password</label>
                 <input type="password" name="Password" required />

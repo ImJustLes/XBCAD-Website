@@ -5,9 +5,11 @@ namespace WeRTutorsV2.Models
 {
     public class TutorSignupModel
     {
-        
+
         //public string Uid { get; set; }
 
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
         [Required]
         public string Name { get; set; }
 
@@ -17,6 +19,7 @@ namespace WeRTutorsV2.Models
         [Required]
         [EmailAddress]
         public string Email { get; set; }
+
 
         [Required]
         [Phone]

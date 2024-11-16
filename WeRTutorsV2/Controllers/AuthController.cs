@@ -61,7 +61,10 @@ namespace WeRTutorsV2.Controllers
                     {
                         Name = model.Name,
                         Surname = model.Surname,
-                        Email = model.Email
+                        Email = model.Email,
+                        Location = model.Location,
+                        Latitude = model.Latitude,
+                        Longitude = model.Longitude
                     };
 
                     // Save user to Firebase Realtime Database under "client" path
@@ -91,24 +94,60 @@ namespace WeRTutorsV2.Controllers
             {
                 try
                 {
-                    // Authenticate user using Firebase Authentication
-                    var user = await FirebaseAuth.DefaultInstance.GetUserByEmailAsync(model.Email);
+                    // Firebase Authentication REST API endpoint
+                    string firebaseAuthUrl = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBt8zopSMcOQ2aom2DKw8zJui8Ni0QB2Sc"; // Replace with your API key
 
-                    // Firebase does not natively provide password check, you need to handle it with your own verification or use Firebase Authentication SDK for user sign-in.
-                    if (user != null)
+                    var payload = new
                     {
-                        ViewBag.Message = "Login successful!";
-                        return RedirectToAction("Index", "ClientDashboard");  // Go to the dashboard after login
+                        email = model.Email,
+                        password = model.Password,
+                        returnSecureToken = true
+                    };
+
+                    using (var httpClient = new HttpClient())
+                    {
+                        var response = await httpClient.PostAsJsonAsync(firebaseAuthUrl, payload);
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var responseData = await response.Content.ReadFromJsonAsync<FirebaseLoginResponse>();
+                            string idToken = responseData.IdToken;
+
+                            // Authentication successful
+                            TempData["PopupMessage"] = "Login successful!";
+                            return RedirectToAction("Index", "ClientDashboard"); // Redirect to the dashboard
+                        }
+                        else
+                        {
+                            var errorResponse = await response.Content.ReadAsStringAsync();
+                            dynamic errorData = JObject.Parse(errorResponse);
+                            string errorMessage = errorData.error.message;
+
+                            TempData["PopupMessage"] = $"Invalid login credentials!";
+                        }
                     }
                 }
-                catch (FirebaseAuthException ex)
+                catch (Exception ex)
                 {
-                    ViewBag.Message = $"Error: {ex.Message}";
+                    TempData["PopupMessage"] = $"Error: {ex.Message}";
                 }
             }
+            else
+            {
+                TempData["PopupMessage"] = "Invalid login credentials!";
+            }
 
-            ViewBag.Message = "Invalid login credentials!";
             return View();
         }
     }
+
+    // Strongly-typed class for Firebase login response
+    public class FirebaseLoginResponse
+    {
+        public string IdToken { get; set; }
+        public string Email { get; set; }
+        public string RefreshToken { get; set; }
+        public string ExpiresIn { get; set; }
+        public string LocalId { get; set; }
+    }
+
 }

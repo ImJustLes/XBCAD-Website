@@ -1,9 +1,72 @@
 ﻿@model WeRTutorsV2.Models.TutorSignupModel
 
-<div class="container mt-4">
-    <link rel="stylesheet" href="~/css/tutorStyle.css" />
+<!DOCTYPE html>
+<html>
+<head>
+    /<link rel="stylesheet" href="~/css/tutorStyle.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQifiASYnxQthJQMEbagB4uuxyOufNk_s&libraries=places"></script>
+
+    <script>
+        let map, marker;
+
+        function initMap() {
+            // Initialize the map centered on a default location
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: -25.7479, lng: 28.2293 }, // Pretoria, for example
+                zoom: 10,
+            });
+
+            // Add marker on map click
+            map.addListener("click", (e) => {
+                placeMarker(e.latLng);
+            });
+
+            // Initialize Places API autocomplete for the address input
+            const autocomplete = new google.maps.places.Autocomplete(document.getElementById("locationInput"));
+            autocomplete.bindTo("bounds", map);
+
+            // Update map and marker based on autocomplete selection
+            autocomplete.addListener("place_changed", () => {
+                const place = autocomplete.getPlace();
+                if (place.geometry) {
+                    placeMarker(place.geometry.location);
+                }
+            });
+        }
+
+        function placeMarker(location) {
+            if (!marker) {
+                marker = new google.maps.Marker({
+                    position: location,
+                    map: map,
+                });
+            } else {
+                marker.setPosition(location);
+            }
+            map.setCenter(location);
+
+            // Set the latitude and longitude fields
+            document.getElementById("Latitude").value = location.lat();
+            document.getElementById("Longitude").value = location.lng();
+        }
+
+        // Ensure the map initializes after the page loads
+        document.addEventListener("DOMContentLoaded", () => {
+            initMap();
+        });
+    </script>
+</head>
+
+<header>
     
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <img src="~/images/WRT-Website-Logo (1).jpg" alt="WeRTutors Logo" />
+</header>
+
+
+<div class="container mt-4">
+    
+    
+    
 
     <h2>Tutor Registration</h2>
     <form asp-action="Signup" method="post">
@@ -44,7 +107,23 @@
                         <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                     </div>
                 </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Location" class="control-label"></label>
+                        <input asp-for="Location" id="locationInput" class="form-control" />
+                        <span asp-validation-for="Location" class="text-danger"></span>
+                    </div>
+                </div>
             </div>
+        </fieldset>
+
+        <!-- Map Display -->
+        <fieldset>
+            <legend>Select Location on Map</legend>
+            <div id="map" style="height: 400px; width: 100%;"></div>
+            <input type="hidden" asp-for="Latitude" id="Latitude" />
+            <input type="hidden" asp-for="Longitude" id="Longitude" />
         </fieldset>
 
         <!-- Professional Information Section -->
@@ -150,13 +229,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label asp-for="Location" class="control-label"></label>
-                        <input asp-for="Location" class="form-control" />
-                        <span asp-validation-for="Location" class="text-danger"></span>
-                    </div>
-                </div>
+                
 
                 <div class="col-md-6">
                     <div class="form-group">
@@ -188,6 +261,8 @@
         </div>
     }
 </div>
+
+
 
 @section Scripts {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

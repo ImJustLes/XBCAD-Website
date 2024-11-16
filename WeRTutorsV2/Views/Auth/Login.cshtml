@@ -1,5 +1,12 @@
 ﻿@model WeRTutorsV2.Models.LoginModel
 
+@if (TempData["PopupMessage"] != null)
+{
+    <script>
+        alert('@TempData["PopupMessage"]');
+    </script>
+}
+
 <!DOCTYPE html>
 <html>
 <head>

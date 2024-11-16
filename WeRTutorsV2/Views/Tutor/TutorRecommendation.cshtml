@@ -1,5 +1,8 @@
 ﻿@model List<WeRTutorsV2.Models.TutorSignupModel>
-
+@{
+    ViewBag.Title = "Tutor Recommendation";
+    var tutorsForMap = ViewBag.TutorsForMap as List<dynamic>;
+}
 
 <!DOCTYPE html>
 <html>
@@ -9,7 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="~/css/ViewAllTutors.css">
     <title>Review Tutor - WeRTutors</title>
-    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQifiASYnxQthJQMEbagB4uuxyOufNk_s&libraries=places"></script>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+
 </head>
 <body>
     <header>
@@ -76,7 +86,8 @@
 
                 <!-- Search Button -->
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Search</button>
+                    <button type="button" onclick="getLocationAndSubmit(event)" class="btn btn-primary">Search</button>
+
                 </div>
             </form>
 
@@ -118,8 +129,45 @@
             {
                 <p>No recommended tutors to display.</p>
             }
+
+            <h3>Map View</h3>
+            <div id="map"></div>
         </div>
     </main>
+
+    <script>
+        function getLocationAndSubmit(event) {
+            event.preventDefault();
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    // Get the user's location
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+
+                    // Add location values to the form and submit it
+                    var latInput = document.createElement('input');
+                    latInput.type = 'hidden';
+                    latInput.name = 'clientLat';
+                    latInput.value = latitude;
+                    document.forms[0].appendChild(latInput);
+
+                    var lngInput = document.createElement('input');
+                    lngInput.type = 'hidden';
+                    lngInput.name = 'clientLng';
+                    lngInput.value = longitude;
+                    document.forms[0].appendChild(lngInput);
+
+                    // Submit the form
+                    document.forms[0].submit();
+                });
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+    </script>
+
+    
+
 </body>
 </html>
 

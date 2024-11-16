@@ -240,3 +240,5 @@ C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\obj\Debug\net
 C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\obj\Debug\net8.0\WeRTutorsV2.genruntimeconfig.cache
 C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\obj\Debug\net8.0\ref\WeRTutorsV2.dll
 C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\obj\Debug\net8.0\WeRTutorsV2.sourcelink.json
+C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\lab_services_student\source\repos\WeRTutorsV2\WeRTutorsV2\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

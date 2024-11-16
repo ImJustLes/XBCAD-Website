@@ -55,11 +55,15 @@
             },
             "FirebaseAdmin": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[3.1.0, )"
             },
             "Google.Apis.Auth": {
               "target": "Package",
               "version": "[1.68.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
