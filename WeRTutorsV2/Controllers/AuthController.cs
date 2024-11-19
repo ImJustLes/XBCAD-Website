@@ -62,6 +62,7 @@ namespace WeRTutorsV2.Controllers
                         Name = model.Name,
                         Surname = model.Surname,
                         Email = model.Email,
+                        Phone = model.Phone,
                         Location = model.Location,
                         Latitude = model.Latitude,
                         Longitude = model.Longitude
@@ -110,11 +111,14 @@ namespace WeRTutorsV2.Controllers
                         if (response.IsSuccessStatusCode)
                         {
                             var responseData = await response.Content.ReadFromJsonAsync<FirebaseLoginResponse>();
-                            string idToken = responseData.IdToken;
+                            
+                            // Store UID in session
+                            HttpContext.Session.SetString("UserId", responseData.LocalId);
 
                             // Authentication successful
                             TempData["PopupMessage"] = "Login successful!";
                             return RedirectToAction("Index", "ClientDashboard"); // Redirect to the dashboard
+                            
                         }
                         else
                         {
@@ -122,7 +126,7 @@ namespace WeRTutorsV2.Controllers
                             dynamic errorData = JObject.Parse(errorResponse);
                             string errorMessage = errorData.error.message;
 
-                            TempData["PopupMessage"] = $"Invalid login credentials!";
+                            TempData["PopupMessage"] = $"Invalid login credentials!. Please try again";
                         }
                     }
                 }

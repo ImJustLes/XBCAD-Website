@@ -1,5 +1,12 @@
 ﻿@model WeRTutorsV2.Models.ClientDashboardModel
 
+@if (TempData["PopupMessage"] != null)
+{
+    <script>
+        alert('@TempData["PopupMessage"]');
+    </script>
+}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,6 +28,8 @@
             <a href="@Url.Action("Index", "Feedback")" class="btn">Send a Feedback </a>
             <a href="@Url.Action("TutorRecommendation", "Tutor")" class="btn">Find Tutor</a>
             <a href="@Url.Action("ViewAllTutors", "Tutor")" class="btn">View Tutors</a>
+            <a href="@Url.Action("clientProfile", "ClientDashboard")" class="btn">View Profile</a>
+
         </div>
     </section>
 </body>

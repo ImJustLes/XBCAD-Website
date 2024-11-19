@@ -57,6 +57,15 @@ namespace WeRTutorsV2
                 return new FirebaseClient(config);
             });
 
+            // session services
+            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30); // Session timeout
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -73,6 +82,9 @@ namespace WeRTutorsV2
             app.UseRouting();
 
             app.UseAuthorization();
+
+            // Enable session middleware
+            app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",

@@ -1,0 +1,47 @@
+﻿@model WeRTutorsV2.Models.ProfileModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client Profile</title>
+    <link rel="stylesheet" href="~/css/style_homepage.css" />
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">WeRTutors</a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="@Url.Action("Index", "ClientDashboard")">Dashboard</a></li>
+            <li><a href="@Url.Action("Profile", "ClientDashboard")">Profile</a></li>
+            <li><a href="@Url.Action("TutorRecommendation", "Tutor")">Find Tutors</a></li>
+            <li><a href="@Url.Action("Resources", "ClientDashboard")">Resources</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Client Profile</h1>
+
+        <section class="profile-section">
+            <h2>Client Information</h2>
+            <div class="profile-item">
+                <div>
+                    <h3>@Model.Name @Model.Surname</h3>
+                    <p>Email: @Model.Email</p>
+                    <p>Phone: @Model.Phone</p>
+                    <p>Location: @Model.Location</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="profile-actions">
+            <div class="dashboard-actions">
+                <a href="@Url.Action("Index", "Feedback")" class="btn">Send Feedback</a>
+                <a href="@Url.Action("TutorRecommendation", "Tutor")" class="btn">Find Tutor</a>
+                <a href="@Url.Action("ViewAllTutors", "Tutor")" class="btn">View Tutors</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
